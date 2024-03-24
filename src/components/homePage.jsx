@@ -12,8 +12,8 @@ export const HomePage = () => {
           <h1 className="text-7xl font-bold">Why I Choose You!</h1>
           <p className="py-6">
             Welcome to WICY, The Coastal School's
-            <a className="text-[#e779c1] font-bold"> Pokémon</a> themed response
-            application!
+            <span className="text-[#e779c1] font-bold"> Pokémon</span> themed
+            response application!
           </p>
           <div className="flex w-full">
             <div className="flex flex-col w-1/2 items-center justify-center">
