@@ -6,7 +6,7 @@ export const StudentLogin = () => {
   return (
     <div className="hero min-h-screen w-screen bg-base-200" id="student-login">
       <div className="hero-content flex-col lg:flex-row-reverse shadow-2xl bg-base-100">
-        <img src={log1} className="max-w-2xl rounded-lg" />
+        <img src={log1} className="max-w-2xl rounded-lg" alt="test" />
         <div className="card shrink-0 w-screen max-w-xl ">
           <form className="card-body flex">
             <h1 className="text-5xl font-bold">Student Login</h1>

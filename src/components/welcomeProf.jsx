@@ -19,7 +19,11 @@ export const WelcomeProf = () => {
             <p className="py-6">What would you like to do?</p>
             <div className="flex justify-evenly items-center w-full">
               <div className="flex flex-col">
-                <img src={wp1} className="max-w-2xl rounded-lg m-4" />
+                <img
+                  src={wp1}
+                  className="max-w-2xl rounded-lg m-4"
+                  alt="test"
+                />
                 <a
                   className="btn btn-xl btn-outline btn-success text-xl"
                   href="#view-students"
@@ -28,7 +32,11 @@ export const WelcomeProf = () => {
                 </a>
               </div>
               <div className="flex flex-col ">
-                <img src={wp2} className="max-w-2xl rounded-lg m-4" />
+                <img
+                  src={wp2}
+                  className="max-w-2xl rounded-lg m-4"
+                  alt="test"
+                />
                 <a
                   className="btn btn-xl btn-outline btn-success text-xl"
                   href="#change-rank"

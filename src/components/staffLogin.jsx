@@ -41,7 +41,7 @@ export const StaffLogin = () => {
             </a>
           </form>
         </div>
-        <img src={log2} className="max-w-2xl rounded-lg" />
+        <img src={log2} className="max-w-2xl rounded-lg" alt="test" />
       </div>
     </div>
   );

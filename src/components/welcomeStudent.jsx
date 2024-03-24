@@ -19,7 +19,11 @@ export const WelcomeStudent = () => {
             <p className="py-6">Choose one of the options below!</p>
             <div className="flex justify-evenly items-center w-full">
               <div className="flex flex-col">
-                <img src={ws1} className="max-w-2xl rounded-lg m-4" />
+                <img
+                  src={ws1}
+                  className="max-w-2xl rounded-lg m-4"
+                  alt="test"
+                />
                 <a
                   className="btn btn-xl btn-outline btn-success text-xl"
                   href="#select-team"
@@ -28,7 +32,11 @@ export const WelcomeStudent = () => {
                 </a>
               </div>
               <div className="flex flex-col ">
-                <img src={ws2} className="max-w-2xl rounded-lg m-4" />
+                <img
+                  src={ws2}
+                  className="max-w-2xl rounded-lg m-4"
+                  alt="test"
+                />
                 <a
                   className="btn btn-xl btn-outline btn-success text-xl"
                   href="#prof-feedback"

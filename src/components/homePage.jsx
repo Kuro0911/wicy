@@ -7,7 +7,7 @@ export const HomePage = () => {
   return (
     <div className="hero min-h-screen bg-base-200 w-screen" id="home">
       <div className="hero-content flex-col lg:flex-row-reverse">
-        <img src={hp1} className="max-w-2xl rounded-lg" />
+        <img src={hp1} className="max-w-2xl rounded-lg" alt="test" />
         <div>
           <h1 className="text-7xl font-bold">Why I Choose You!</h1>
           <p className="py-6">
@@ -23,7 +23,7 @@ export const HomePage = () => {
               >
                 Student Login
               </a>
-              <img src={student} className="max-w-sm rounded-lg" />
+              <img src={student} className="max-w-sm rounded-lg" alt="test" />
             </div>
             <div className="flex flex-col w-1/2 items-center justify-center">
               <a
@@ -32,7 +32,7 @@ export const HomePage = () => {
               >
                 Staff Login
               </a>
-              <img src={teacher} className="max-w-sm rounded-lg " />
+              <img src={teacher} className="max-w-sm rounded-lg " alt="test" />
             </div>
           </div>
         </div>
