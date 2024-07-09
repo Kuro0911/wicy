@@ -2,7 +2,24 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 export const Navbar = () => {
-  let items = ["WOMEN", "MEN", "KIDS", "NEW & FEATURED"];
+  let items = [
+    {
+      title: "WOMEN",
+      link: "/#women",
+    },
+    {
+      title: "MEN",
+      link: "/#men",
+    },
+    {
+      title: "KIDS",
+      link: "/#kids",
+    },
+    {
+      title: "NEW & FEATURED",
+      link: "/#new",
+    },
+  ];
   const [showNavbar, setShowNavbar] = useState(true);
   const [lastScrollTop, setLastScrollTop] = useState(0);
 
@@ -56,7 +73,7 @@ export const Navbar = () => {
           >
             {items.map((e) => (
               <li>
-                <a>{e}</a>
+                <a href={e.link}>{e.title}</a>
               </li>
             ))}
           </ul>
@@ -65,7 +82,7 @@ export const Navbar = () => {
           <ul className="menu menu-horizontal px-1">
             {items.map((e) => (
               <li>
-                <a>{e}</a>
+                <a href={e.link}>{e.title}</a>
               </li>
             ))}
           </ul>

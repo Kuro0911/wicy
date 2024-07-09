@@ -33,7 +33,7 @@ export const ProductDetails = () => {
     ],
     sizes: ["XS", "S", "M", "L"],
   };
-  const [images, setImages] = useState(product.images);
+  const images = product.images;
   const [activeImg, setActiveImage] = useState(images.img1);
   const [amount, setAmount] = useState(1);
   const [selectedSize, setSelectedSize] = useState("");
