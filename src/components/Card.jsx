@@ -12,7 +12,7 @@ export const Card = ({ title, src, desc, kids, id }) => {
     >
       <img
         src={src}
-        alt="random image"
+        alt="random"
         className="w-full object-cover object-center rounded-lg shadow-md"
       />
       <Link to={`/product/${id}`}>

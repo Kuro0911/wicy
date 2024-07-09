@@ -23,23 +23,23 @@ export const Footer = () => {
       </aside>
       <nav>
         <h6 className="footer-title">WOMEN</h6>
-        <a className="link link-hover">Shirts</a>
-        <a className="link link-hover">Shorts</a>
-        <a className="link link-hover">Jackets</a>
-        <a className="link link-hover">Hoodies</a>
-        <a className="link link-hover">Trousers</a>
-        <a className="link link-hover">Shoes</a>
-        <a className="link link-hover">Accessories</a>
+        <span className="link link-hover">Shirts</span>
+        <span className="link link-hover">Shorts</span>
+        <span className="link link-hover">Jackets</span>
+        <span className="link link-hover">Hoodies</span>
+        <span className="link link-hover">Trousers</span>
+        <span className="link link-hover">Shoes</span>
+        <span className="link link-hover">Accessories</span>
       </nav>
       <nav>
         <h6 className="footer-title">MEN</h6>
-        <a className="link link-hover">Shirts</a>
-        <a className="link link-hover">Shorts</a>
-        <a className="link link-hover">Jackets</a>
-        <a className="link link-hover">Hoodies</a>
-        <a className="link link-hover">Trousers</a>
-        <a className="link link-hover">Shoes</a>
-        <a className="link link-hover">Accessories</a>
+        <span className="link link-hover">Shirts</span>
+        <span className="link link-hover">Shorts</span>
+        <span className="link link-hover">Jackets</span>
+        <span className="link link-hover">Hoodies</span>
+        <span className="link link-hover">Trousers</span>
+        <span className="link link-hover">Shoes</span>
+        <span className="link link-hover">Accessories</span>
       </nav>
       <nav>
         <h6 className="footer-title">KIDS</h6>

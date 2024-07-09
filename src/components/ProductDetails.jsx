@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import { useParams } from "react-router-dom";
+// import { useParams } from "react-router-dom";
 
 export const ProductDetails = () => {
-  const { id } = useParams();
+  // const { id } = useParams();
   const product = {
     name: "Ribbed vest top",
     description:
