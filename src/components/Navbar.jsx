@@ -78,7 +78,7 @@ export const Navbar = () => {
             ))}
           </ul>
         </div>
-        <a className="text-xl font-bold hidden lg:flex">
+        <span className="text-xl font-bold hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             {items.map((e) => (
               <li>
@@ -86,12 +86,12 @@ export const Navbar = () => {
               </li>
             ))}
           </ul>
-        </a>
+        </span>
       </div>
       <div className="navbar-center">
-        <a className="text-2xl lg:text-4xl font-cursive font-bold">
+        <span className="text-2xl lg:text-4xl font-cursive font-bold">
           Sardar Sons
-        </a>
+        </span>
       </div>
       <div className="navbar-end">
         <div className="flex-none flex justify-center items-center">
@@ -152,13 +152,13 @@ export const Navbar = () => {
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
             >
               <li>
-                <a className="justify-between">Profile</a>
+                <span className="justify-between">Profile</span>
               </li>
               <li>
-                <a>Settings</a>
+                <span>Settings</span>
               </li>
               <li>
-                <a>Logout</a>
+                <span>Logout</span>
               </li>
             </ul>
           </div>
