@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export const Card = ({ title, src, desc, kids, id }) => {
   return (
     <div
-      className={`h-64 w-72 relative group transition-all duration-300 ease-in-out m-4 ${
+      className={`max-h-64 w-72 relative group transition-all duration-300 ease-in-out m-4 ${
         kids
           ? "bg-gradient-to-r from-yellow-100 via-pink-100 to-purple-100"
           : ""
@@ -13,7 +13,7 @@ export const Card = ({ title, src, desc, kids, id }) => {
       <img
         src={src}
         alt="random"
-        className="w-full object-cover object-center rounded-lg shadow-md"
+        className="w-full object-scale-down object-center rounded-lg shadow-md"
       />
       <Link to={`/product/${id}`}>
         <div className="relative px-4 -mt-16">

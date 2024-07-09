@@ -15,29 +15,29 @@ export const Kids = () => {
   ];
   let card_items = [
     {
-      src: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fcd%2F68%2F99%2Fcd6899127a342e5eb277240036ac9287.jpg&f=1&nofb=1&ipt=c5155df1d0d937d94abeab319c854b3d437251e5d867ef2d5fdafd2193c21f2d&ipo=images",
-      title: "Women's Floral Bouquet Print Tunic",
-      desc: "Elevate your wardrobe with our Women's Floral Bouquet Print Tunic, a perfect blend of art and fashion. Featuring a stunning, vibrant floral bouquet print on the front, this tunic is crafted from soft, breathable fabric for ultimate comfort.",
+      src: "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F4b%2Fde%2F4bde5e60defebc531304e6a927697673bfce542a.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      title: "Denim cargo trousers",
+      desc: "Cargo-style trousers in stretchy cotton denim with flap leg pockets. Low waist with adjustable elastication, zip fly with a button and wide legs. Front and back pockets.",
     },
     {
-      src: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fcd%2F68%2F99%2Fcd6899127a342e5eb277240036ac9287.jpg&f=1&nofb=1&ipt=c5155df1d0d937d94abeab319c854b3d437251e5d867ef2d5fdafd2193c21f2d&ipo=images",
-      title: "Women's Floral Bouquet Print Tunic",
-      desc: "Elevate your wardrobe with our Women's Floral Bouquet Print Tunic, a perfect blend of art and fashion. Featuring a stunning, vibrant floral bouquet print on the front, this tunic is crafted from soft, breathable fabric for ultimate comfort.",
+      src: "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F4b%2F85%2F4b850f2954e4f37ebd87d88ca81245cdfc17f97d.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      title: "Oversized print-motif T-shirt",
+      desc: "Disney x Keith Haring. Oversized T-shirt in printed cotton jersey with low dropped shoulders. V-shaped, rib-trimmed neckline.",
     },
     {
-      src: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fcd%2F68%2F99%2Fcd6899127a342e5eb277240036ac9287.jpg&f=1&nofb=1&ipt=c5155df1d0d937d94abeab319c854b3d437251e5d867ef2d5fdafd2193c21f2d&ipo=images",
-      title: "Women's Floral Bouquet Print Tunic",
-      desc: "Elevate your wardrobe with our Women's Floral Bouquet Print Tunic, a perfect blend of art and fashion. Featuring a stunning, vibrant floral bouquet print on the front, this tunic is crafted from soft, breathable fabric for ultimate comfort.",
+      src: "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fc4%2Fb6%2Fc4b6799f9b67b4a35bbbfcaad485a21c71644dc3.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      title: "Printed T-shirt",
+      desc: "Disney x Keith Haring. Loose-fit T-shirt in soft cotton jersey with an all-over print. Round, rib-trimmed neckline and dropped shoulders.",
     },
     {
-      src: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fcd%2F68%2F99%2Fcd6899127a342e5eb277240036ac9287.jpg&f=1&nofb=1&ipt=c5155df1d0d937d94abeab319c854b3d437251e5d867ef2d5fdafd2193c21f2d&ipo=images",
-      title: "Women's Floral Bouquet Print Tunic",
-      desc: "Elevate your wardrobe with our Women's Floral Bouquet Print Tunic, a perfect blend of art and fashion. Featuring a stunning, vibrant floral bouquet print on the front, this tunic is crafted from soft, breathable fabric for ultimate comfort.",
+      src: "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Ff1%2Fee%2Ff1ee667122edc713c4ed3705d6c097e6a4519d2d.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      title: "Cotton jersey T-shirt",
+      desc: "T-shirt in soft cotton jersey with a round, rib-trimmed neckline and forward-facing shoulder seams.",
     },
     {
-      src: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fcd%2F68%2F99%2Fcd6899127a342e5eb277240036ac9287.jpg&f=1&nofb=1&ipt=c5155df1d0d937d94abeab319c854b3d437251e5d867ef2d5fdafd2193c21f2d&ipo=images",
-      title: "Women's Floral Bouquet Print Tunic",
-      desc: "Elevate your wardrobe with our Women's Floral Bouquet Print Tunic, a perfect blend of art and fashion. Featuring a stunning, vibrant floral bouquet print on the front, this tunic is crafted from soft, breathable fabric for ultimate comfort.",
+      src: "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F6e%2F37%2F6e37f10e45d891a1473690f474f24628d4245851.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      title: "Fly as hell T-shirt",
+      desc: "Classic T-shirt in soft, printed jersey with a round, rib-trimmed neckline and a straight-cut hem.",
     },
   ];
   return (

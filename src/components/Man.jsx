@@ -15,29 +15,29 @@ export const Man = () => {
   ];
   let card_items = [
     {
-      src: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fcd%2F68%2F99%2Fcd6899127a342e5eb277240036ac9287.jpg&f=1&nofb=1&ipt=c5155df1d0d937d94abeab319c854b3d437251e5d867ef2d5fdafd2193c21f2d&ipo=images",
-      title: "Women's Floral Bouquet Print Tunic",
-      desc: "Elevate your wardrobe with our Women's Floral Bouquet Print Tunic, a perfect blend of art and fashion. Featuring a stunning, vibrant floral bouquet print on the front, this tunic is crafted from soft, breathable fabric for ultimate comfort.",
+      src: "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F73%2F35%2F7335bd85914048e5cbcd0fa2070bae57bf1d338c.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      title: "Loose Fit Textured resort shirt",
+      desc: "Short-sleeved shirt in textured jersey with a resort collar, French front, yoke at the back and a straight-cut hem with a slit at each side. Loose fit for a generous but not oversized silhouette.",
     },
     {
-      src: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fcd%2F68%2F99%2Fcd6899127a342e5eb277240036ac9287.jpg&f=1&nofb=1&ipt=c5155df1d0d937d94abeab319c854b3d437251e5d867ef2d5fdafd2193c21f2d&ipo=images",
-      title: "Women's Floral Bouquet Print Tunic",
-      desc: "Elevate your wardrobe with our Women's Floral Bouquet Print Tunic, a perfect blend of art and fashion. Featuring a stunning, vibrant floral bouquet print on the front, this tunic is crafted from soft, breathable fabric for ultimate comfort.",
+      src: "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F98%2F0b%2F980b003a6064d82faa0884ec5f027b57dbb2bd68.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      title: "Regular Fit Windbreaker",
+      desc: "Regular-fit windbreaker in windproof, water-repellent nylon. Lined hood with an elasticated drawstring, a zip down the front and long sleeves with covered elastication at the cuffs. Zipped side pockets and an inner pocket with a press-stud. Concealed, elasticated drawstring at the hem. Lined.",
     },
     {
-      src: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fcd%2F68%2F99%2Fcd6899127a342e5eb277240036ac9287.jpg&f=1&nofb=1&ipt=c5155df1d0d937d94abeab319c854b3d437251e5d867ef2d5fdafd2193c21f2d&ipo=images",
-      title: "Women's Floral Bouquet Print Tunic",
-      desc: "Elevate your wardrobe with our Women's Floral Bouquet Print Tunic, a perfect blend of art and fashion. Featuring a stunning, vibrant floral bouquet print on the front, this tunic is crafted from soft, breathable fabric for ultimate comfort.",
+      src: "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F30%2F59%2F3059c37542c8a684bca9d1ba0d1d958fbd614d52.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      title: "Loose Jeans",
+      desc: "5-pocket jeans in rigid cotton denim with a rounded leg and a loose fit from the seat to the hem with a dropped crotch and extra room around the whole leg. Regular waist and a zip fly. All you need to conquer the full denim look.",
     },
     {
-      src: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fcd%2F68%2F99%2Fcd6899127a342e5eb277240036ac9287.jpg&f=1&nofb=1&ipt=c5155df1d0d937d94abeab319c854b3d437251e5d867ef2d5fdafd2193c21f2d&ipo=images",
-      title: "Women's Floral Bouquet Print Tunic",
-      desc: "Elevate your wardrobe with our Women's Floral Bouquet Print Tunic, a perfect blend of art and fashion. Featuring a stunning, vibrant floral bouquet print on the front, this tunic is crafted from soft, breathable fabric for ultimate comfort.",
+      src: "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F87%2F46%2F874647b621aa1c7a144a786f8de3b836c4a2a067.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      title: "Relaxed Fit Linen suit trousers",
+      desc: "Suit trousers in an airy linen weave with a zip fly and an extended waistband with a button and hook-and-eye fastening. Diagonal front pockets and jetted back pockets with a button. Legs with creases at the front and back. Relaxed fit for a casual but not oversized silhouette. Fabric made from linen is breathable, beautiful both ironed and wrinkled, and softens over time.",
     },
     {
-      src: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fcd%2F68%2F99%2Fcd6899127a342e5eb277240036ac9287.jpg&f=1&nofb=1&ipt=c5155df1d0d937d94abeab319c854b3d437251e5d867ef2d5fdafd2193c21f2d&ipo=images",
-      title: "Women's Floral Bouquet Print Tunic",
-      desc: "Elevate your wardrobe with our Women's Floral Bouquet Print Tunic, a perfect blend of art and fashion. Featuring a stunning, vibrant floral bouquet print on the front, this tunic is crafted from soft, breathable fabric for ultimate comfort.",
+      src: "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Ff0%2F4d%2Ff04de306ec9f33dd076f49ca0faaec9b2a4bea64.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      title: "Slim Fit Jacket",
+      desc: "Single-breasted jacket in a stretch weave with narrow notch lapels with a decorative buttonhole, a chest pocket, flap front pockets and one inner pocket. Slim fit with two buttons at the front, decorative buttons at the cuffs and a single back vent. Lined.",
     },
   ];
   return (
