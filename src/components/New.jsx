@@ -12,7 +12,7 @@ export const New = () => {
         </div>
 
         <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:gap-6 xl:gap-8">
-          <a
+          <span
             href="#"
             className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80"
           >
@@ -33,8 +33,8 @@ export const New = () => {
                 fashion.
               </p>
             </div>
-          </a>
-          <a
+          </span>
+          <span
             href="#"
             className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80"
           >
@@ -57,8 +57,8 @@ export const New = () => {
                 Shop Now
               </button>
             </div>
-          </a>
-          <a
+          </span>
+          <span
             href="#"
             className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80"
           >
@@ -80,8 +80,8 @@ export const New = () => {
                 and functionality.
               </p>
             </div>
-          </a>
-          <a
+          </span>
+          <span
             href="#"
             className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80"
           >
@@ -103,7 +103,7 @@ export const New = () => {
                 for everyday use.
               </p>
             </div>
-          </a>
+          </span>
         </div>
       </div>
     </div>
