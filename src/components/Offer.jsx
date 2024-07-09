@@ -2,7 +2,7 @@ import React from "react";
 
 export const Offer = ({ src, title, desc }) => {
   return (
-    <div className="max-h-96 w-full flex items-center justify-center">
+    <div className="h-[50vh] w-full flex items-start justify-center">
       <div className="card lg:card-side bg-gray-200 shadow-xl w-2/3">
         <figure>
           <img src={src} alt="Album" />

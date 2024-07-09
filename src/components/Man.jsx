@@ -41,7 +41,7 @@ export const Man = () => {
     },
   ];
   return (
-    <div className="hero w-full h-[100vh] flex flex-col" id="men">
+    <div className="hero w-full h-screen flex flex-col" id="men">
       <div className="flex flex-col items-center justify-center text-center h-1/4 mt-[-1em]">
         <h1 className="text-4xl md:text-5xl font-bold mb-4 font-serif ">
           Latest <span className="font-cursive lg:text-6xl">Men</span> Arrivals
