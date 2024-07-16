@@ -1,11 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-export const Card = ({ title, src, desc, kids, id }) => {
+export const Card = ({ title, src, desc, category, id }) => {
   return (
     <div
       className={`max-h-64 w-72 relative group transition-all duration-300 ease-in-out m-4 ${
-        kids
+        category === "kids"
           ? "bg-gradient-to-r from-yellow-100 via-pink-100 to-purple-100"
           : ""
       }`}
@@ -15,14 +15,14 @@ export const Card = ({ title, src, desc, kids, id }) => {
         alt="random"
         className="w-full object-scale-down object-center rounded-lg shadow-md"
       />
-      <Link to={`/product/${id}`}>
+      <Link to={`/product/${category}/${id}`}>
         <div className="relative px-4 -mt-16">
           <div
             className={`bg-white p-6 rounded-lg shadow-lg transform group-hover:scale-105 transition-transform duration-300 ease-in-out} `}
           >
             <h4
               className={`mt-1 text-xl font-semibold uppercase font-serif ${
-                kids ? "text-pink-500" : ""
+                category === "kids" ? "text-pink-500" : ""
               }`}
             >
               {title}
@@ -30,13 +30,15 @@ export const Card = ({ title, src, desc, kids, id }) => {
             <div className="mt-4">
               <span
                 className={`text-md font-semibold lg:line-clamp-3 line-clamp-1 ${
-                  kids ? "text-purple-700" : "text-amber-700"
+                  category === "kids" ? "text-purple-700" : "text-amber-700"
                 }`}
               >
                 {desc}
               </span>
               <span
-                className={`text-blue-800 ${kids ? "text-purple-700" : ""}`}
+                className={`text-blue-800 ${
+                  category === "kids" ? "text-purple-700" : ""
+                }`}
               >
                 learn more
               </span>

@@ -4,19 +4,19 @@ export const Landing = () => {
   let images = [
     {
       link: "https://fashionista.com/.image/t_share/MTQxNjc4MTYzNTAyNTczNTEz/sostenibility-editorial-7stjpg.jpg",
-      alt: "WOMEN",
+      alt: "women",
     },
     {
       link: "https://www.thefashionisto.com/wp-content/uploads/2017/04/Zara-Man-2017-Tailoring-Editorial-Mathias-Lauridsen-007.jpg",
-      alt: "MEN",
+      alt: "men",
     },
     {
       link: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.VxabjY6rmFs5kEDAjcANZwAAAA%26pid%3DApi&f=1&ipt=4a82e54bab7f4292e67960c3a4269733abba6ec9d14a448ba67dc29f2f8a2c26&ipo=images",
-      alt: "KIDS",
+      alt: "kids",
     },
     {
       link: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F5e%2Fbd%2Fed%2F5ebded1a872fb89396a5da16ea358e46.png&f=1&nofb=1&ipt=590bda46090030e668fd5e9c314d1b83da6a25701edbfd6b46ebe3a7a8bfec47&ipo=images",
-      alt: "FASHION",
+      alt: "new",
     },
   ];
   return (
@@ -43,16 +43,20 @@ export const Landing = () => {
       </div>
       <div className="flex lg:flex-row flex-col space-x-4 lg:w-11/12 h-1/2 ">
         {images.map((e) => (
-          <div className="relative lg:w-1/4 lg:h-96 overflow-hidden rounded-lg shadow-lg">
+          <a
+            className="relative lg:w-1/4 lg:h-96 overflow-hidden rounded-lg shadow-lg"
+            href={`#${e.alt}`}
+            key={e.alt}
+          >
             <img
               src={e.link}
               alt={e.alt}
               className="w-full h-full object-cover"
             />
             <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
-              <span className="text-white text-xl">{e.alt}</span>
+              <span className="text-white text-2xl uppercase">{e.alt}</span>
             </div>
-          </div>
+          </a>
         ))}
       </div>
     </div>

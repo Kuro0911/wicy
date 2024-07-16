@@ -72,7 +72,7 @@ export const Navbar = () => {
             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
           >
             {items.map((e) => (
-              <li>
+              <li key={e.title}>
                 <a href={e.link}>{e.title}</a>
               </li>
             ))}
@@ -81,7 +81,7 @@ export const Navbar = () => {
         <span className="text-xl font-bold hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             {items.map((e) => (
-              <li>
+              <li key={e.title}>
                 <a href={e.link}>{e.title}</a>
               </li>
             ))}
