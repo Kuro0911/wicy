@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 import WomenData from "../../utils/database/Womens.json";
 import MenData from "../../utils/database/Mens.json";
 import KidsData from "../../utils/database/Kids.json";
+import { useCart } from "../../utils/CartContext";
 
 export const ProductDetails = () => {
   const { id } = useParams();
@@ -11,8 +12,19 @@ export const ProductDetails = () => {
 
   const [activeImg, setActiveImage] = useState(null);
   const [amount, setAmount] = useState(1);
+  const [selectedColor, setSelectedColor] = useState("");
   const [selectedSize, setSelectedSize] = useState("");
+
+  const [isAdded, setIsAdded] = useState(false);
   const [loading, setLoading] = useState(true);
+
+  const { addToCart } = useCart();
+
+  const handleAddToCart = () => {
+    addToCart(filteredProduct, amount, selectedColor, selectedSize);
+    setIsAdded(true);
+    setTimeout(() => setIsAdded(false), 2000);
+  };
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -35,6 +47,7 @@ export const ProductDetails = () => {
         if (product) {
           setFilteredProduct(product);
           setActiveImage(product.images.img1);
+          setSelectedColor(product.colors[0].name);
           setLoading(false);
         }
       }
@@ -49,7 +62,7 @@ export const ProductDetails = () => {
         </div>
       ) : (
         <>
-          <div className="flex flex-col gap-4 items-center justify-center lg:gap-6 lg:w-2/4">
+          <div className="flex flex-col gap-4 items-center justify-center lg:gap-6 lg:w-2/4 lg:mt-[2em]">
             <img
               src={activeImg}
               alt=""
@@ -85,11 +98,14 @@ export const ProductDetails = () => {
                     src={color.image}
                     alt={color.name}
                     className={`w-20 h-20 lg:w-24 lg:h-24 rounded-md cursor-pointer border-2 object-scale-down ${
-                      activeImg === color.image
+                      selectedColor === color.name
                         ? "border-success"
                         : "border-transparent"
                     }`}
-                    onClick={() => setActiveImage(color.image)}
+                    onClick={() => {
+                      setActiveImage(color.image);
+                      setSelectedColor(color.name);
+                    }}
                   />
                 ))}
               </div>
@@ -130,8 +146,17 @@ export const ProductDetails = () => {
                   +
                 </button>
               </div>
-              <button className="btn btn-success lg:btn-wide text-white font-sans lg:text-lg hover:text-success hover:bg-white">
-                Add to Cart
+              <button
+                onClick={handleAddToCart}
+                className={`btn ${
+                  isAdded ? "bg-gray" : "bg-success"
+                } lg:btn-wide text-white font-sans lg:text-lg ${
+                  isAdded
+                    ? "hover:bg-gray-300"
+                    : "hover:text-success hover:bg-white"
+                }`}
+              >
+                {isAdded ? "Added!" : "Add to Cart"}
               </button>
             </div>
 

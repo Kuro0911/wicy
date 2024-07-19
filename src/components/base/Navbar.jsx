@@ -1,7 +1,18 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import { useCart } from "../../utils/CartContext";
 
 export const Navbar = () => {
+  const { cartItems } = useCart();
+  const totalItems = cartItems.reduce(
+    (total, item) => total + item.quantity,
+    0
+  );
+  const CalcSubtotal = cartItems.reduce(
+    (acc, item) => acc + item.price * item.quantity,
+    0
+  );
+
   let items = [
     {
       title: "WOMEN",
@@ -89,9 +100,9 @@ export const Navbar = () => {
         </span>
       </div>
       <div className="navbar-center">
-        <span className="text-2xl lg:text-4xl font-cursive font-bold">
-          Sardar Sons
-        </span>
+        <a className="text-2xl lg:text-4xl font-cursive font-bold" href="/">
+          Sardar Sons Nainital
+        </a>
       </div>
       <div className="navbar-end">
         <div className="flex-none flex justify-center items-center">
@@ -116,7 +127,9 @@ export const Navbar = () => {
                     d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
                   />
                 </svg>
-                <span className="badge badge-sm indicator-item">8</span>
+                <span className="badge badge-sm indicator-item">
+                  {totalItems}
+                </span>
               </div>
             </div>
             <div
@@ -124,8 +137,8 @@ export const Navbar = () => {
               className="card card-compact dropdown-content bg-base-100 z-[1] mt-3 w-52 shadow"
             >
               <div className="card-body">
-                <span className="text-lg font-bold">8 Items</span>
-                <span className="text-info">Subtotal: INR 999</span>
+                <span className="text-lg font-bold">{totalItems} Items</span>
+                <span className="text-info">Subtotal: INR {CalcSubtotal}</span>
                 <div className="card-actions">
                   <Link to="/cart" className="btn btn-primary btn-block">
                     View cart

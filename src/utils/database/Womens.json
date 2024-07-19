@@ -26,234 +26,972 @@
           }
         ],
         "sizes": ["XS", "S", "M", "L"],
-        "id": "test123",
+        "id": "shirt1",
         "category": "women"
       },
       {
+        "name": "Long-sleeved jersey top",
+        "desc": "Fitted top in soft jersey with a square neckline and long sleeves front and back, accentuating your neckline and shoulders. The overlocked hem adds a touch of durability and a subtle, stylish finish to the overall design. Perfect for layering or wearing on its own, this versatile top pairs effortlessly with a variety of outfits, making it an essential addition to your wardrobe. Whether you're dressing it up with a blazer and trousers for a chic office look or keeping it casual with jeans and sneakers for a weekend outing, this vest top provides a flattering fit and timeless appeal. Available in multiple colors to suit your ",
+        "price": 699.0,
         "images": {
-          "img1": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fe1%2Fb8%2Fe1b80cc8ecc8d034e21f77cf831af06f3c491144.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          "img1": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F26%2F77%2F26779aa1ee33a0eb12d4dc16ef71f837bd83d9fb.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+          "img2": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F16%2F41%2F1641f9092b1a8a56a7cd4aff36181da8c280a764.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+          "img3": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F84%2Ff6%2F84f638c69f62de4bf16b12b96f189b2672627760.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+          "img4": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F04%2Fd4%2F04d4dfe066bf519821ec1e0125264f90e0d75173.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVEDETAIL%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
         },
-        "title": "Drawstring-detail halterneck dress",
-        "id": "d003esf09",
+        "colors": [
+          {
+            "name": "Black",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F84%2Ff6%2F84f638c69f62de4bf16b12b96f189b2672627760.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          },
+          {
+            "name": "White",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fb3%2Fdd%2Fb3dd24232f10af9a7ca60b0ee7d05cfa964a6a80.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_tops_longsleeve%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          },
+          {
+            "name": "Dark khaki green",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fe4%2Fbb%2Fe4bbdd7a2d372c3b10fe34aad0f4f8736ccabdf5.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          }
+        ],
+        "sizes": ["XS", "S", "M", "L"],
+        "id": "shirt2",
         "category": "women"
       },
       {
-        "title": "Women's Floral Bouquet Print Tunic",
-        "desc": "Elevate your wardrobe with our Women's Floral Bouquet Print Tunic, a perfect blend of art and fashion. Featuring a stunning, vibrant floral bouquet print on the front, this tunic is crafted from soft, breathable fabric for ultimate comfort.",
-        "id": "d003ef0d9",
+        "name": "Off-the-shoulder jersey top",
+        "desc": "Fitted, off-the-shoulder top in heavy jersey with short sleeves and concealed elastication at the top, accentuating your neckline and shoulders. The overlocked hem adds a touch of durability and a subtle, stylish finish to the overall design. Perfect for layering or wearing on its own, this versatile top pairs effortlessly with a variety of outfits, making it an essential addition to your wardrobe. Whether you're dressing it up with a blazer and trousers for a chic office look or keeping it casual with jeans and sneakers for a weekend outing, this vest top provides a flattering fit and timeless appeal. Available in multiple colors to suit your ",
+        "price": 699.0,
         "images": {
-          "img1": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fc2%2Ff4%2Fc2f4759ad72257cd15b3a7961988d14a353ad16f.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]"
+          "img1": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F46%2F55%2F4655486768b08d3040e62991f59e0c576df775b9.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+          "img2": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F10%2F6a%2F106a84a4f3e1fe93a3207fdc8e925b33f215287b.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+          "img3": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F3c%2F71%2F3c719c492ec979c699e48bdd83ad4e5acff9e14d.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+          "img4": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F89%2Fea%2F89ea7455c72cda9a75ddfa6560596cfe46f8360c.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVEDETAIL%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
         },
+        "colors": [
+          {
+            "name": "Black",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F3c%2F71%2F3c719c492ec979c699e48bdd83ad4e5acff9e14d.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          },
+          {
+            "name": "White",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fff%2Ff5%2Ffff559ec0c3908c28dbf652693c95921fbef6f79.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          },
+          {
+            "name": "White/Navy blue striped",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F0f%2Fc9%2F0fc9de400daba3c0b31e9b50fb2e41bdafa50ae3.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          }
+        ],
+        "sizes": ["XS", "S", "M", "L"],
+        "id": "shirt3",
         "category": "women"
       },
       {
+        "name": "Oversized printed T-shirt",
+        "desc": "Oversized T-shirt in soft, printed cotton jersey with a ribbed trim around the neckline, low dropped shoulders and a straight-cut hem. The overlocked hem adds a touch of durability and a subtle, stylish finish to the overall design. Perfect for layering or wearing on its own, this versatile top pairs effortlessly with a variety of outfits, making it an essential addition to your wardrobe. Whether you're dressing it up with a blazer and trousers for a chic office look or keeping it casual with jeans and sneakers for a weekend outing, this vest top provides a flattering fit and timeless appeal. Available in multiple colors to suit your ",
+        "price": 1299.0,
         "images": {
-          "img1": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F0a%2F9a%2F0a9a32057086771b31b0050b524c813b7be04999.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_dresses_mididresses%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          "img1": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F43%2Ff4%2F43f4a0166d47c8599b16655a87c61a886ed86217.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+          "img2": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fdc%2Fc0%2Fdcc081b4b675341e874df95407c8da9b10bf3aa7.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+          "img3": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F85%2Fae%2F85ae337246b7116292d29068afbed10302510271.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_tops_printed_tshirts%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+          "img4": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F91%2Fc3%2F91c386542bcca8db5d292090c29ffd3cd173f378.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_tops_printed_tshirts%5D%2Ctype%5BDESCRIPTIVEDETAIL%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
         },
-        "desc": "Long, sleeveless dress in woven fabric made from a lyocell blend. Deep V-neckline at the front and back with narrow, horizontal ties at the back of the neck. Double-layered flounces over the shoulders and around the waist and a concealed zip at one side. Lined.",
-        "id": "d003ef0c9",
+        "colors": [
+          {
+            "name": "Black/Deftones",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F85%2Fae%2F85ae337246b7116292d29068afbed10302510271.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_tops_printed_tshirts%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          },
+          {
+            "name": "Dusty green/Nine Inch Nails",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F01%2F9d%2F019d07d213cf1944934dd1e0af78e1898c58653b.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_tops_printed_tshirts%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          },
+          {
+            "name": "Grey/The Rolling Stones",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fbc%2F4b%2Fbc4ba6cc38156c2d48c3d40673084b00d901ea3e.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          }
+        ],
+        "sizes": ["XS", "S", "M", "L"],
+        "id": "shirt4",
         "category": "women"
       },
       {
+        "name": "Fitted T-shirt",
+        "desc": "Fitted T-shirt in soft jersey with a narrow trim around the neckline. printed cotton jersey with a ribbed trim around the neckline, low dropped shoulders and a straight-cut hem. The overlocked hem adds a touch of durability and a subtle, stylish finish to the overall design. Perfect for layering or wearing on its own, this versatile top pairs effortlessly with a variety of outfits, making it an essential addition to your wardrobe. Whether you're dressing it up with a blazer and trousers for a chic office look or keeping it casual with jeans and sneakers for a weekend outing, this vest top provides a flattering fit and timeless appeal. Available in multiple colors to suit your ",
+        "price": 1099.0,
         "images": {
-          "img1": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F0d%2Fb4%2F0db4ea9f78ede0d3cd6a1e46b629ddef476e9973.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          "img1": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F1a%2F4b%2F1a4b47e13fe02fc94c5207dd099ec01fa5ef45b2.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+          "img2": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F25%2F5d%2F255dcf38f6f17dc307b9e08ba5be5fe10df284c0.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+          "img3": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F05%2F9c%2F059c96c3cb9d826873f6a9dbe61d3ed9c0da3db4.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_basics_tops_shortsleeve%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+          "img4": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F9d%2Fc6%2F9dc6da00241dcc561cf35ae159e93f5bf3d85ed5.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_basics_tops_shortsleeve%5D%2Ctype%5BDESCRIPTIVEDETAIL%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
         },
-        "title": "Oversized twill jacket",
-        "desc": "Oversized jacket in twill with a small stand-up collar and a wind flap with concealed press-studs down the front. Gently dropped shoulders and long sleeves with a slit and press-stud at the cuffs. Flap front pockets, a yoke at the back and covered elastication at the hem. Lined.",
-        "id": "d003eqf09",
+        "colors": [
+          {
+            "name": "Dark beige",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F05%2F9c%2F059c96c3cb9d826873f6a9dbe61d3ed9c0da3db4.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_basics_tops_shortsleeve%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          },
+          {
+            "name": "Light dusty pink",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F88%2F53%2F88532110ec6bfd78a6831b903841acd8cc39f195.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          },
+          {
+            "name": "Black",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F31%2F2d%2F312de7b1191523974ad9f68c02c87dddd06c5d89.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          }
+        ],
+        "sizes": ["XS", "S", "M", "L"],
+        "id": "shirt5",
         "category": "women"
       }
     ],
     "Shorts": [
       {
-        "src": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F12%2F31%2F1231b3e663d20fad1a6b468f738539c008a05286.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
-        "title": "Shorts",
-        "desc": "Calf-length, loose-fit kaftan dress in a soft cotton and viscose weave with a band collar, V-shaped opening and buttons down the front. Yoke with gathers at the front and back, long balloon sleeves and wide, buttoned cuffs. Detachable tie belt at the waist and a straight-cut hem with a slit at each side. Unlined.",
-        "id": "d003ef09"
+        "name": "Shorts",
+        "desc": "This short, fitted vest top is crafted from a premium ribbed jersey fabric that offers both comfort and style. It features a deep, round neckline at both the front and back, accentuating your neckline and shoulders. The overlocked hem adds a touch of durability and a subtle, stylish finish to the overall design. Perfect for layering or wearing on its own, this versatile top pairs effortlessly with a variety of outfits, making it an essential addition to your wardrobe. Whether you're dressing it up with a blazer and trousers for a chic office look or keeping it casual with jeans and sneakers for a weekend outing, this vest top provides a flattering fit and timeless appeal. Available in multiple colors to suit your ",
+        "price": 199.0,
+        "images": {
+          "img1": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F6d%2Fea%2F6deab693c180b6375c3b29811e033282b4a75e1c.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+          "img2": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F03%2F71%2F0371f65de274455bd90818bdb16b3ad1d4fc2fbc.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+          "img3": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F4b%2Fe5%2F4be583db5faf6851619a4cd9651c396062de458b.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_tops_vests%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+          "img4": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F7f%2Fca%2F7fca78e981484ae84cee2d7b175c165b6b148490.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_tops_vests%5D%2Ctype%5BDESCRIPTIVEDETAIL%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+        },
+        "colors": [
+          {
+            "name": "White",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F26%2Fc0%2F26c01003d69213dabd5bd7cb74b06639952c1034.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          },
+          {
+            "name": "Black",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F2d%2F04%2F2d0410e71ec565c385aaa5f89a0f70411d824b19.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          },
+          {
+            "name": "Beige",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F4b%2Fe5%2F4be583db5faf6851619a4cd9651c396062de458b.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_tops_vests%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          }
+        ],
+        "sizes": ["XS", "S", "M", "L"],
+        "id": "shorts1",
+        "category": "women"
       },
       {
-        "src": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fe1%2Fb8%2Fe1b80cc8ecc8d034e21f77cf831af06f3c491144.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
-        "title": "Drawstring-detail halterneck dress",
-        "desc": "Elevate your wardrobe with our Women's Floral Bouquet Print Tunic, a perfect blend of art and fashion. Featuring a stunning, vibrant floral bouquet print on the front, this tunic is crafted from soft, breathable fabric for ultimate comfort.",
-        "id": "d003ef09"
+        "name": "Long-sleeved jersey top",
+        "desc": "Fitted top in soft jersey with a square neckline and long sleeves front and back, accentuating your neckline and shoulders. The overlocked hem adds a touch of durability and a subtle, stylish finish to the overall design. Perfect for layering or wearing on its own, this versatile top pairs effortlessly with a variety of outfits, making it an essential addition to your wardrobe. Whether you're dressing it up with a blazer and trousers for a chic office look or keeping it casual with jeans and sneakers for a weekend outing, this vest top provides a flattering fit and timeless appeal. Available in multiple colors to suit your ",
+        "price": 699.0,
+        "images": {
+          "img1": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F26%2F77%2F26779aa1ee33a0eb12d4dc16ef71f837bd83d9fb.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+          "img2": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F16%2F41%2F1641f9092b1a8a56a7cd4aff36181da8c280a764.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+          "img3": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F84%2Ff6%2F84f638c69f62de4bf16b12b96f189b2672627760.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+          "img4": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F04%2Fd4%2F04d4dfe066bf519821ec1e0125264f90e0d75173.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVEDETAIL%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+        },
+        "colors": [
+          {
+            "name": "Black",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F84%2Ff6%2F84f638c69f62de4bf16b12b96f189b2672627760.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          },
+          {
+            "name": "White",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fb3%2Fdd%2Fb3dd24232f10af9a7ca60b0ee7d05cfa964a6a80.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_tops_longsleeve%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          },
+          {
+            "name": "Dark khaki green",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fe4%2Fbb%2Fe4bbdd7a2d372c3b10fe34aad0f4f8736ccabdf5.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          }
+        ],
+        "sizes": ["XS", "S", "M", "L"],
+        "id": "shorts2",
+        "category": "women"
       },
       {
-        "src": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fc2%2Ff4%2Fc2f4759ad72257cd15b3a7961988d14a353ad16f.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
-        "title": "Women's Floral Bouquet Print Tunic",
-        "desc": "Elevate your wardrobe with our Women's Floral Bouquet Print Tunic, a perfect blend of art and fashion. Featuring a stunning, vibrant floral bouquet print on the front, this tunic is crafted from soft, breathable fabric for ultimate comfort.",
-        "id": "d003ef09"
+        "name": "Off-the-shoulder jersey top",
+        "desc": "Fitted, off-the-shoulder top in heavy jersey with short sleeves and concealed elastication at the top, accentuating your neckline and shoulders. The overlocked hem adds a touch of durability and a subtle, stylish finish to the overall design. Perfect for layering or wearing on its own, this versatile top pairs effortlessly with a variety of outfits, making it an essential addition to your wardrobe. Whether you're dressing it up with a blazer and trousers for a chic office look or keeping it casual with jeans and sneakers for a weekend outing, this vest top provides a flattering fit and timeless appeal. Available in multiple colors to suit your ",
+        "price": 699.0,
+        "images": {
+          "img1": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F46%2F55%2F4655486768b08d3040e62991f59e0c576df775b9.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+          "img2": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F10%2F6a%2F106a84a4f3e1fe93a3207fdc8e925b33f215287b.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+          "img3": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F3c%2F71%2F3c719c492ec979c699e48bdd83ad4e5acff9e14d.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+          "img4": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F89%2Fea%2F89ea7455c72cda9a75ddfa6560596cfe46f8360c.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVEDETAIL%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+        },
+        "colors": [
+          {
+            "name": "Black",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F3c%2F71%2F3c719c492ec979c699e48bdd83ad4e5acff9e14d.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          },
+          {
+            "name": "White",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fff%2Ff5%2Ffff559ec0c3908c28dbf652693c95921fbef6f79.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          },
+          {
+            "name": "White/Navy blue striped",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F0f%2Fc9%2F0fc9de400daba3c0b31e9b50fb2e41bdafa50ae3.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          }
+        ],
+        "sizes": ["XS", "S", "M", "L"],
+        "id": "shorts3",
+        "category": "women"
       },
       {
-        "src": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F0a%2F9a%2F0a9a32057086771b31b0050b524c813b7be04999.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_dresses_mididresses%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
-        "title": "Flounce-trimmed dress",
-        "desc": "Long, sleeveless dress in woven fabric made from a lyocell blend. Deep V-neckline at the front and back with narrow, horizontal ties at the back of the neck. Double-layered flounces over the shoulders and around the waist and a concealed zip at one side. Lined.",
-        "id": "d003ef09"
+        "name": "Oversized printed T-shirt",
+        "desc": "Oversized T-shirt in soft, printed cotton jersey with a ribbed trim around the neckline, low dropped shoulders and a straight-cut hem. The overlocked hem adds a touch of durability and a subtle, stylish finish to the overall design. Perfect for layering or wearing on its own, this versatile top pairs effortlessly with a variety of outfits, making it an essential addition to your wardrobe. Whether you're dressing it up with a blazer and trousers for a chic office look or keeping it casual with jeans and sneakers for a weekend outing, this vest top provides a flattering fit and timeless appeal. Available in multiple colors to suit your ",
+        "price": 1299.0,
+        "images": {
+          "img1": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F43%2Ff4%2F43f4a0166d47c8599b16655a87c61a886ed86217.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+          "img2": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fdc%2Fc0%2Fdcc081b4b675341e874df95407c8da9b10bf3aa7.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+          "img3": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F85%2Fae%2F85ae337246b7116292d29068afbed10302510271.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_tops_printed_tshirts%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+          "img4": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F91%2Fc3%2F91c386542bcca8db5d292090c29ffd3cd173f378.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_tops_printed_tshirts%5D%2Ctype%5BDESCRIPTIVEDETAIL%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+        },
+        "colors": [
+          {
+            "name": "Black/Deftones",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F85%2Fae%2F85ae337246b7116292d29068afbed10302510271.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_tops_printed_tshirts%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          },
+          {
+            "name": "Dusty green/Nine Inch Nails",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F01%2F9d%2F019d07d213cf1944934dd1e0af78e1898c58653b.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_tops_printed_tshirts%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          },
+          {
+            "name": "Grey/The Rolling Stones",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fbc%2F4b%2Fbc4ba6cc38156c2d48c3d40673084b00d901ea3e.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          }
+        ],
+        "sizes": ["XS", "S", "M", "L"],
+        "id": "shorts4",
+        "category": "women"
       },
       {
-        "src": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F0d%2Fb4%2F0db4ea9f78ede0d3cd6a1e46b629ddef476e9973.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
-        "title": "Oversized twill jacket",
-        "desc": "Oversized jacket in twill with a small stand-up collar and a wind flap with concealed press-studs down the front. Gently dropped shoulders and long sleeves with a slit and press-stud at the cuffs. Flap front pockets, a yoke at the back and covered elastication at the hem. Lined.",
-        "id": "d003ef09"
+        "name": "Fitted T-shirt",
+        "desc": "Fitted T-shirt in soft jersey with a narrow trim around the neckline. printed cotton jersey with a ribbed trim around the neckline, low dropped shoulders and a straight-cut hem. The overlocked hem adds a touch of durability and a subtle, stylish finish to the overall design. Perfect for layering or wearing on its own, this versatile top pairs effortlessly with a variety of outfits, making it an essential addition to your wardrobe. Whether you're dressing it up with a blazer and trousers for a chic office look or keeping it casual with jeans and sneakers for a weekend outing, this vest top provides a flattering fit and timeless appeal. Available in multiple colors to suit your ",
+        "price": 1099.0,
+        "images": {
+          "img1": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F1a%2F4b%2F1a4b47e13fe02fc94c5207dd099ec01fa5ef45b2.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+          "img2": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F25%2F5d%2F255dcf38f6f17dc307b9e08ba5be5fe10df284c0.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+          "img3": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F05%2F9c%2F059c96c3cb9d826873f6a9dbe61d3ed9c0da3db4.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_basics_tops_shortsleeve%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+          "img4": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F9d%2Fc6%2F9dc6da00241dcc561cf35ae159e93f5bf3d85ed5.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_basics_tops_shortsleeve%5D%2Ctype%5BDESCRIPTIVEDETAIL%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+        },
+        "colors": [
+          {
+            "name": "Dark beige",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F05%2F9c%2F059c96c3cb9d826873f6a9dbe61d3ed9c0da3db4.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_basics_tops_shortsleeve%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          },
+          {
+            "name": "Light dusty pink",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F88%2F53%2F88532110ec6bfd78a6831b903841acd8cc39f195.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          },
+          {
+            "name": "Black",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F31%2F2d%2F312de7b1191523974ad9f68c02c87dddd06c5d89.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          }
+        ],
+        "sizes": ["XS", "S", "M", "L"],
+        "id": "shorts5",
+        "category": "women"
       }
     ],
     "Jackets": [
       {
-        "src": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F12%2F31%2F1231b3e663d20fad1a6b468f738539c008a05286.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
-        "title": "Jackets",
-        "desc": "Calf-length, loose-fit kaftan dress in a soft cotton and viscose weave with a band collar, V-shaped opening and buttons down the front. Yoke with gathers at the front and back, long balloon sleeves and wide, buttoned cuffs. Detachable tie belt at the waist and a straight-cut hem with a slit at each side. Unlined.",
-        "id": "d003ef09"
+        "name": "Jackets",
+        "desc": "This short, fitted vest top is crafted from a premium ribbed jersey fabric that offers both comfort and style. It features a deep, round neckline at both the front and back, accentuating your neckline and shoulders. The overlocked hem adds a touch of durability and a subtle, stylish finish to the overall design. Perfect for layering or wearing on its own, this versatile top pairs effortlessly with a variety of outfits, making it an essential addition to your wardrobe. Whether you're dressing it up with a blazer and trousers for a chic office look or keeping it casual with jeans and sneakers for a weekend outing, this vest top provides a flattering fit and timeless appeal. Available in multiple colors to suit your ",
+        "price": 199.0,
+        "images": {
+          "img1": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F6d%2Fea%2F6deab693c180b6375c3b29811e033282b4a75e1c.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+          "img2": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F03%2F71%2F0371f65de274455bd90818bdb16b3ad1d4fc2fbc.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+          "img3": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F4b%2Fe5%2F4be583db5faf6851619a4cd9651c396062de458b.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_tops_vests%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+          "img4": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F7f%2Fca%2F7fca78e981484ae84cee2d7b175c165b6b148490.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_tops_vests%5D%2Ctype%5BDESCRIPTIVEDETAIL%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+        },
+        "colors": [
+          {
+            "name": "White",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F26%2Fc0%2F26c01003d69213dabd5bd7cb74b06639952c1034.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          },
+          {
+            "name": "Black",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F2d%2F04%2F2d0410e71ec565c385aaa5f89a0f70411d824b19.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          },
+          {
+            "name": "Beige",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F4b%2Fe5%2F4be583db5faf6851619a4cd9651c396062de458b.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_tops_vests%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          }
+        ],
+        "sizes": ["XS", "S", "M", "L"],
+        "id": "Jackets1",
+        "category": "women"
       },
       {
-        "src": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fe1%2Fb8%2Fe1b80cc8ecc8d034e21f77cf831af06f3c491144.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
-        "title": "Drawstring-detail halterneck dress",
-        "desc": "Elevate your wardrobe with our Women's Floral Bouquet Print Tunic, a perfect blend of art and fashion. Featuring a stunning, vibrant floral bouquet print on the front, this tunic is crafted from soft, breathable fabric for ultimate comfort.",
-        "id": "d003ef09"
+        "name": "Long-sleeved jersey top",
+        "desc": "Fitted top in soft jersey with a square neckline and long sleeves front and back, accentuating your neckline and shoulders. The overlocked hem adds a touch of durability and a subtle, stylish finish to the overall design. Perfect for layering or wearing on its own, this versatile top pairs effortlessly with a variety of outfits, making it an essential addition to your wardrobe. Whether you're dressing it up with a blazer and trousers for a chic office look or keeping it casual with jeans and sneakers for a weekend outing, this vest top provides a flattering fit and timeless appeal. Available in multiple colors to suit your ",
+        "price": 699.0,
+        "images": {
+          "img1": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F26%2F77%2F26779aa1ee33a0eb12d4dc16ef71f837bd83d9fb.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+          "img2": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F16%2F41%2F1641f9092b1a8a56a7cd4aff36181da8c280a764.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+          "img3": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F84%2Ff6%2F84f638c69f62de4bf16b12b96f189b2672627760.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+          "img4": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F04%2Fd4%2F04d4dfe066bf519821ec1e0125264f90e0d75173.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVEDETAIL%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+        },
+        "colors": [
+          {
+            "name": "Black",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F84%2Ff6%2F84f638c69f62de4bf16b12b96f189b2672627760.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          },
+          {
+            "name": "White",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fb3%2Fdd%2Fb3dd24232f10af9a7ca60b0ee7d05cfa964a6a80.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_tops_longsleeve%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          },
+          {
+            "name": "Dark khaki green",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fe4%2Fbb%2Fe4bbdd7a2d372c3b10fe34aad0f4f8736ccabdf5.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          }
+        ],
+        "sizes": ["XS", "S", "M", "L"],
+        "id": "Jackets2",
+        "category": "women"
       },
       {
-        "src": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fc2%2Ff4%2Fc2f4759ad72257cd15b3a7961988d14a353ad16f.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
-        "title": "Women's Floral Bouquet Print Tunic",
-        "desc": "Elevate your wardrobe with our Women's Floral Bouquet Print Tunic, a perfect blend of art and fashion. Featuring a stunning, vibrant floral bouquet print on the front, this tunic is crafted from soft, breathable fabric for ultimate comfort.",
-        "id": "d003ef09"
+        "name": "Off-the-shoulder jersey top",
+        "desc": "Fitted, off-the-shoulder top in heavy jersey with short sleeves and concealed elastication at the top, accentuating your neckline and shoulders. The overlocked hem adds a touch of durability and a subtle, stylish finish to the overall design. Perfect for layering or wearing on its own, this versatile top pairs effortlessly with a variety of outfits, making it an essential addition to your wardrobe. Whether you're dressing it up with a blazer and trousers for a chic office look or keeping it casual with jeans and sneakers for a weekend outing, this vest top provides a flattering fit and timeless appeal. Available in multiple colors to suit your ",
+        "price": 699.0,
+        "images": {
+          "img1": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F46%2F55%2F4655486768b08d3040e62991f59e0c576df775b9.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+          "img2": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F10%2F6a%2F106a84a4f3e1fe93a3207fdc8e925b33f215287b.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+          "img3": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F3c%2F71%2F3c719c492ec979c699e48bdd83ad4e5acff9e14d.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+          "img4": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F89%2Fea%2F89ea7455c72cda9a75ddfa6560596cfe46f8360c.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVEDETAIL%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+        },
+        "colors": [
+          {
+            "name": "Black",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F3c%2F71%2F3c719c492ec979c699e48bdd83ad4e5acff9e14d.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          },
+          {
+            "name": "White",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fff%2Ff5%2Ffff559ec0c3908c28dbf652693c95921fbef6f79.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          },
+          {
+            "name": "White/Navy blue striped",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F0f%2Fc9%2F0fc9de400daba3c0b31e9b50fb2e41bdafa50ae3.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          }
+        ],
+        "sizes": ["XS", "S", "M", "L"],
+        "id": "Jackets3",
+        "category": "women"
       },
       {
-        "src": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F0a%2F9a%2F0a9a32057086771b31b0050b524c813b7be04999.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_dresses_mididresses%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
-        "title": "Flounce-trimmed dress",
-        "desc": "Long, sleeveless dress in woven fabric made from a lyocell blend. Deep V-neckline at the front and back with narrow, horizontal ties at the back of the neck. Double-layered flounces over the shoulders and around the waist and a concealed zip at one side. Lined.",
-        "id": "d003ef09"
+        "name": "Oversized printed T-shirt",
+        "desc": "Oversized T-shirt in soft, printed cotton jersey with a ribbed trim around the neckline, low dropped shoulders and a straight-cut hem. The overlocked hem adds a touch of durability and a subtle, stylish finish to the overall design. Perfect for layering or wearing on its own, this versatile top pairs effortlessly with a variety of outfits, making it an essential addition to your wardrobe. Whether you're dressing it up with a blazer and trousers for a chic office look or keeping it casual with jeans and sneakers for a weekend outing, this vest top provides a flattering fit and timeless appeal. Available in multiple colors to suit your ",
+        "price": 1299.0,
+        "images": {
+          "img1": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F43%2Ff4%2F43f4a0166d47c8599b16655a87c61a886ed86217.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+          "img2": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fdc%2Fc0%2Fdcc081b4b675341e874df95407c8da9b10bf3aa7.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+          "img3": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F85%2Fae%2F85ae337246b7116292d29068afbed10302510271.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_tops_printed_tshirts%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+          "img4": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F91%2Fc3%2F91c386542bcca8db5d292090c29ffd3cd173f378.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_tops_printed_tshirts%5D%2Ctype%5BDESCRIPTIVEDETAIL%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+        },
+        "colors": [
+          {
+            "name": "Black/Deftones",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F85%2Fae%2F85ae337246b7116292d29068afbed10302510271.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_tops_printed_tshirts%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          },
+          {
+            "name": "Dusty green/Nine Inch Nails",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F01%2F9d%2F019d07d213cf1944934dd1e0af78e1898c58653b.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_tops_printed_tshirts%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          },
+          {
+            "name": "Grey/The Rolling Stones",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fbc%2F4b%2Fbc4ba6cc38156c2d48c3d40673084b00d901ea3e.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          }
+        ],
+        "sizes": ["XS", "S", "M", "L"],
+        "id": "Jackets4",
+        "category": "women"
       },
       {
-        "src": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F0d%2Fb4%2F0db4ea9f78ede0d3cd6a1e46b629ddef476e9973.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
-        "title": "Oversized twill jacket",
-        "desc": "Oversized jacket in twill with a small stand-up collar and a wind flap with concealed press-studs down the front. Gently dropped shoulders and long sleeves with a slit and press-stud at the cuffs. Flap front pockets, a yoke at the back and covered elastication at the hem. Lined.",
-        "id": "d003ef09"
+        "name": "Fitted T-shirt",
+        "desc": "Fitted T-shirt in soft jersey with a narrow trim around the neckline. printed cotton jersey with a ribbed trim around the neckline, low dropped shoulders and a straight-cut hem. The overlocked hem adds a touch of durability and a subtle, stylish finish to the overall design. Perfect for layering or wearing on its own, this versatile top pairs effortlessly with a variety of outfits, making it an essential addition to your wardrobe. Whether you're dressing it up with a blazer and trousers for a chic office look or keeping it casual with jeans and sneakers for a weekend outing, this vest top provides a flattering fit and timeless appeal. Available in multiple colors to suit your ",
+        "price": 1099.0,
+        "images": {
+          "img1": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F1a%2F4b%2F1a4b47e13fe02fc94c5207dd099ec01fa5ef45b2.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+          "img2": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F25%2F5d%2F255dcf38f6f17dc307b9e08ba5be5fe10df284c0.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+          "img3": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F05%2F9c%2F059c96c3cb9d826873f6a9dbe61d3ed9c0da3db4.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_basics_tops_shortsleeve%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+          "img4": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F9d%2Fc6%2F9dc6da00241dcc561cf35ae159e93f5bf3d85ed5.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_basics_tops_shortsleeve%5D%2Ctype%5BDESCRIPTIVEDETAIL%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+        },
+        "colors": [
+          {
+            "name": "Dark beige",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F05%2F9c%2F059c96c3cb9d826873f6a9dbe61d3ed9c0da3db4.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_basics_tops_shortsleeve%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          },
+          {
+            "name": "Light dusty pink",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F88%2F53%2F88532110ec6bfd78a6831b903841acd8cc39f195.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          },
+          {
+            "name": "Black",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F31%2F2d%2F312de7b1191523974ad9f68c02c87dddd06c5d89.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          }
+        ],
+        "sizes": ["XS", "S", "M", "L"],
+        "id": "Jackets5",
+        "category": "women"
       }
     ],
     "Hoodies": [
       {
-        "src": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F12%2F31%2F1231b3e663d20fad1a6b468f738539c008a05286.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
-        "title": "Hoodies",
-        "desc": "Calf-length, loose-fit kaftan dress in a soft cotton and viscose weave with a band collar, V-shaped opening and buttons down the front. Yoke with gathers at the front and back, long balloon sleeves and wide, buttoned cuffs. Detachable tie belt at the waist and a straight-cut hem with a slit at each side. Unlined.",
-        "id": "d003ef09"
+        "name": "Hoodies",
+        "desc": "This short, fitted vest top is crafted from a premium ribbed jersey fabric that offers both comfort and style. It features a deep, round neckline at both the front and back, accentuating your neckline and shoulders. The overlocked hem adds a touch of durability and a subtle, stylish finish to the overall design. Perfect for layering or wearing on its own, this versatile top pairs effortlessly with a variety of outfits, making it an essential addition to your wardrobe. Whether you're dressing it up with a blazer and trousers for a chic office look or keeping it casual with jeans and sneakers for a weekend outing, this vest top provides a flattering fit and timeless appeal. Available in multiple colors to suit your ",
+        "price": 199.0,
+        "images": {
+          "img1": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F6d%2Fea%2F6deab693c180b6375c3b29811e033282b4a75e1c.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+          "img2": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F03%2F71%2F0371f65de274455bd90818bdb16b3ad1d4fc2fbc.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+          "img3": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F4b%2Fe5%2F4be583db5faf6851619a4cd9651c396062de458b.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_tops_vests%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+          "img4": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F7f%2Fca%2F7fca78e981484ae84cee2d7b175c165b6b148490.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_tops_vests%5D%2Ctype%5BDESCRIPTIVEDETAIL%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+        },
+        "colors": [
+          {
+            "name": "White",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F26%2Fc0%2F26c01003d69213dabd5bd7cb74b06639952c1034.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          },
+          {
+            "name": "Black",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F2d%2F04%2F2d0410e71ec565c385aaa5f89a0f70411d824b19.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          },
+          {
+            "name": "Beige",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F4b%2Fe5%2F4be583db5faf6851619a4cd9651c396062de458b.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_tops_vests%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          }
+        ],
+        "sizes": ["XS", "S", "M", "L"],
+        "id": "Hoodies1",
+        "category": "women"
       },
       {
-        "src": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fe1%2Fb8%2Fe1b80cc8ecc8d034e21f77cf831af06f3c491144.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
-        "title": "Drawstring-detail halterneck dress",
-        "desc": "Elevate your wardrobe with our Women's Floral Bouquet Print Tunic, a perfect blend of art and fashion. Featuring a stunning, vibrant floral bouquet print on the front, this tunic is crafted from soft, breathable fabric for ultimate comfort.",
-        "id": "d003ef09"
+        "name": "Long-sleeved jersey top",
+        "desc": "Fitted top in soft jersey with a square neckline and long sleeves front and back, accentuating your neckline and shoulders. The overlocked hem adds a touch of durability and a subtle, stylish finish to the overall design. Perfect for layering or wearing on its own, this versatile top pairs effortlessly with a variety of outfits, making it an essential addition to your wardrobe. Whether you're dressing it up with a blazer and trousers for a chic office look or keeping it casual with jeans and sneakers for a weekend outing, this vest top provides a flattering fit and timeless appeal. Available in multiple colors to suit your ",
+        "price": 699.0,
+        "images": {
+          "img1": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F26%2F77%2F26779aa1ee33a0eb12d4dc16ef71f837bd83d9fb.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+          "img2": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F16%2F41%2F1641f9092b1a8a56a7cd4aff36181da8c280a764.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+          "img3": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F84%2Ff6%2F84f638c69f62de4bf16b12b96f189b2672627760.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+          "img4": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F04%2Fd4%2F04d4dfe066bf519821ec1e0125264f90e0d75173.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVEDETAIL%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+        },
+        "colors": [
+          {
+            "name": "Black",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F84%2Ff6%2F84f638c69f62de4bf16b12b96f189b2672627760.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          },
+          {
+            "name": "White",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fb3%2Fdd%2Fb3dd24232f10af9a7ca60b0ee7d05cfa964a6a80.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_tops_longsleeve%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          },
+          {
+            "name": "Dark khaki green",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fe4%2Fbb%2Fe4bbdd7a2d372c3b10fe34aad0f4f8736ccabdf5.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          }
+        ],
+        "sizes": ["XS", "S", "M", "L"],
+        "id": "Hoodies2",
+        "category": "women"
       },
       {
-        "src": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fc2%2Ff4%2Fc2f4759ad72257cd15b3a7961988d14a353ad16f.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
-        "title": "Women's Floral Bouquet Print Tunic",
-        "desc": "Elevate your wardrobe with our Women's Floral Bouquet Print Tunic, a perfect blend of art and fashion. Featuring a stunning, vibrant floral bouquet print on the front, this tunic is crafted from soft, breathable fabric for ultimate comfort.",
-        "id": "d003ef09"
+        "name": "Off-the-shoulder jersey top",
+        "desc": "Fitted, off-the-shoulder top in heavy jersey with short sleeves and concealed elastication at the top, accentuating your neckline and shoulders. The overlocked hem adds a touch of durability and a subtle, stylish finish to the overall design. Perfect for layering or wearing on its own, this versatile top pairs effortlessly with a variety of outfits, making it an essential addition to your wardrobe. Whether you're dressing it up with a blazer and trousers for a chic office look or keeping it casual with jeans and sneakers for a weekend outing, this vest top provides a flattering fit and timeless appeal. Available in multiple colors to suit your ",
+        "price": 699.0,
+        "images": {
+          "img1": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F46%2F55%2F4655486768b08d3040e62991f59e0c576df775b9.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+          "img2": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F10%2F6a%2F106a84a4f3e1fe93a3207fdc8e925b33f215287b.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+          "img3": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F3c%2F71%2F3c719c492ec979c699e48bdd83ad4e5acff9e14d.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+          "img4": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F89%2Fea%2F89ea7455c72cda9a75ddfa6560596cfe46f8360c.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVEDETAIL%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+        },
+        "colors": [
+          {
+            "name": "Black",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F3c%2F71%2F3c719c492ec979c699e48bdd83ad4e5acff9e14d.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          },
+          {
+            "name": "White",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fff%2Ff5%2Ffff559ec0c3908c28dbf652693c95921fbef6f79.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          },
+          {
+            "name": "White/Navy blue striped",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F0f%2Fc9%2F0fc9de400daba3c0b31e9b50fb2e41bdafa50ae3.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          }
+        ],
+        "sizes": ["XS", "S", "M", "L"],
+        "id": "Hoodies3",
+        "category": "women"
       },
       {
-        "src": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F0a%2F9a%2F0a9a32057086771b31b0050b524c813b7be04999.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_dresses_mididresses%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
-        "title": "Flounce-trimmed dress",
-        "desc": "Long, sleeveless dress in woven fabric made from a lyocell blend. Deep V-neckline at the front and back with narrow, horizontal ties at the back of the neck. Double-layered flounces over the shoulders and around the waist and a concealed zip at one side. Lined.",
-        "id": "d003ef09"
+        "name": "Oversized printed T-shirt",
+        "desc": "Oversized T-shirt in soft, printed cotton jersey with a ribbed trim around the neckline, low dropped shoulders and a straight-cut hem. The overlocked hem adds a touch of durability and a subtle, stylish finish to the overall design. Perfect for layering or wearing on its own, this versatile top pairs effortlessly with a variety of outfits, making it an essential addition to your wardrobe. Whether you're dressing it up with a blazer and trousers for a chic office look or keeping it casual with jeans and sneakers for a weekend outing, this vest top provides a flattering fit and timeless appeal. Available in multiple colors to suit your ",
+        "price": 1299.0,
+        "images": {
+          "img1": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F43%2Ff4%2F43f4a0166d47c8599b16655a87c61a886ed86217.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+          "img2": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fdc%2Fc0%2Fdcc081b4b675341e874df95407c8da9b10bf3aa7.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+          "img3": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F85%2Fae%2F85ae337246b7116292d29068afbed10302510271.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_tops_printed_tshirts%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+          "img4": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F91%2Fc3%2F91c386542bcca8db5d292090c29ffd3cd173f378.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_tops_printed_tshirts%5D%2Ctype%5BDESCRIPTIVEDETAIL%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+        },
+        "colors": [
+          {
+            "name": "Black/Deftones",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F85%2Fae%2F85ae337246b7116292d29068afbed10302510271.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_tops_printed_tshirts%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          },
+          {
+            "name": "Dusty green/Nine Inch Nails",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F01%2F9d%2F019d07d213cf1944934dd1e0af78e1898c58653b.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_tops_printed_tshirts%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          },
+          {
+            "name": "Grey/The Rolling Stones",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fbc%2F4b%2Fbc4ba6cc38156c2d48c3d40673084b00d901ea3e.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          }
+        ],
+        "sizes": ["XS", "S", "M", "L"],
+        "id": "Hoodies4",
+        "category": "women"
       },
       {
-        "src": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F0d%2Fb4%2F0db4ea9f78ede0d3cd6a1e46b629ddef476e9973.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
-        "title": "Oversized twill jacket",
-        "desc": "Oversized jacket in twill with a small stand-up collar and a wind flap with concealed press-studs down the front. Gently dropped shoulders and long sleeves with a slit and press-stud at the cuffs. Flap front pockets, a yoke at the back and covered elastication at the hem. Lined.",
-        "id": "d003ef09"
+        "name": "Fitted T-shirt",
+        "desc": "Fitted T-shirt in soft jersey with a narrow trim around the neckline. printed cotton jersey with a ribbed trim around the neckline, low dropped shoulders and a straight-cut hem. The overlocked hem adds a touch of durability and a subtle, stylish finish to the overall design. Perfect for layering or wearing on its own, this versatile top pairs effortlessly with a variety of outfits, making it an essential addition to your wardrobe. Whether you're dressing it up with a blazer and trousers for a chic office look or keeping it casual with jeans and sneakers for a weekend outing, this vest top provides a flattering fit and timeless appeal. Available in multiple colors to suit your ",
+        "price": 1099.0,
+        "images": {
+          "img1": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F1a%2F4b%2F1a4b47e13fe02fc94c5207dd099ec01fa5ef45b2.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+          "img2": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F25%2F5d%2F255dcf38f6f17dc307b9e08ba5be5fe10df284c0.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+          "img3": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F05%2F9c%2F059c96c3cb9d826873f6a9dbe61d3ed9c0da3db4.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_basics_tops_shortsleeve%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+          "img4": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F9d%2Fc6%2F9dc6da00241dcc561cf35ae159e93f5bf3d85ed5.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_basics_tops_shortsleeve%5D%2Ctype%5BDESCRIPTIVEDETAIL%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+        },
+        "colors": [
+          {
+            "name": "Dark beige",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F05%2F9c%2F059c96c3cb9d826873f6a9dbe61d3ed9c0da3db4.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_basics_tops_shortsleeve%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          },
+          {
+            "name": "Light dusty pink",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F88%2F53%2F88532110ec6bfd78a6831b903841acd8cc39f195.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          },
+          {
+            "name": "Black",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F31%2F2d%2F312de7b1191523974ad9f68c02c87dddd06c5d89.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          }
+        ],
+        "sizes": ["XS", "S", "M", "L"],
+        "id": "Hoodies5",
+        "category": "women"
       }
     ],
     "Trousers": [
       {
-        "src": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F12%2F31%2F1231b3e663d20fad1a6b468f738539c008a05286.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
-        "title": "Trousers",
-        "desc": "Calf-length, loose-fit kaftan dress in a soft cotton and viscose weave with a band collar, V-shaped opening and buttons down the front. Yoke with gathers at the front and back, long balloon sleeves and wide, buttoned cuffs. Detachable tie belt at the waist and a straight-cut hem with a slit at each side. Unlined.",
-        "id": "d003ef09"
+        "name": "Trousers",
+        "desc": "This short, fitted vest top is crafted from a premium ribbed jersey fabric that offers both comfort and style. It features a deep, round neckline at both the front and back, accentuating your neckline and shoulders. The overlocked hem adds a touch of durability and a subtle, stylish finish to the overall design. Perfect for layering or wearing on its own, this versatile top pairs effortlessly with a variety of outfits, making it an essential addition to your wardrobe. Whether you're dressing it up with a blazer and trousers for a chic office look or keeping it casual with jeans and sneakers for a weekend outing, this vest top provides a flattering fit and timeless appeal. Available in multiple colors to suit your ",
+        "price": 199.0,
+        "images": {
+          "img1": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F6d%2Fea%2F6deab693c180b6375c3b29811e033282b4a75e1c.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+          "img2": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F03%2F71%2F0371f65de274455bd90818bdb16b3ad1d4fc2fbc.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+          "img3": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F4b%2Fe5%2F4be583db5faf6851619a4cd9651c396062de458b.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_tops_vests%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+          "img4": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F7f%2Fca%2F7fca78e981484ae84cee2d7b175c165b6b148490.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_tops_vests%5D%2Ctype%5BDESCRIPTIVEDETAIL%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+        },
+        "colors": [
+          {
+            "name": "White",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F26%2Fc0%2F26c01003d69213dabd5bd7cb74b06639952c1034.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          },
+          {
+            "name": "Black",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F2d%2F04%2F2d0410e71ec565c385aaa5f89a0f70411d824b19.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          },
+          {
+            "name": "Beige",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F4b%2Fe5%2F4be583db5faf6851619a4cd9651c396062de458b.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_tops_vests%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          }
+        ],
+        "sizes": ["XS", "S", "M", "L"],
+        "id": "Trousers1",
+        "category": "women"
       },
       {
-        "src": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fe1%2Fb8%2Fe1b80cc8ecc8d034e21f77cf831af06f3c491144.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
-        "title": "Drawstring-detail halterneck dress",
-        "desc": "Elevate your wardrobe with our Women's Floral Bouquet Print Tunic, a perfect blend of art and fashion. Featuring a stunning, vibrant floral bouquet print on the front, this tunic is crafted from soft, breathable fabric for ultimate comfort.",
-        "id": "d003ef09"
+        "name": "Long-sleeved jersey top",
+        "desc": "Fitted top in soft jersey with a square neckline and long sleeves front and back, accentuating your neckline and shoulders. The overlocked hem adds a touch of durability and a subtle, stylish finish to the overall design. Perfect for layering or wearing on its own, this versatile top pairs effortlessly with a variety of outfits, making it an essential addition to your wardrobe. Whether you're dressing it up with a blazer and trousers for a chic office look or keeping it casual with jeans and sneakers for a weekend outing, this vest top provides a flattering fit and timeless appeal. Available in multiple colors to suit your ",
+        "price": 699.0,
+        "images": {
+          "img1": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F26%2F77%2F26779aa1ee33a0eb12d4dc16ef71f837bd83d9fb.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+          "img2": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F16%2F41%2F1641f9092b1a8a56a7cd4aff36181da8c280a764.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+          "img3": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F84%2Ff6%2F84f638c69f62de4bf16b12b96f189b2672627760.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+          "img4": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F04%2Fd4%2F04d4dfe066bf519821ec1e0125264f90e0d75173.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVEDETAIL%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+        },
+        "colors": [
+          {
+            "name": "Black",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F84%2Ff6%2F84f638c69f62de4bf16b12b96f189b2672627760.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          },
+          {
+            "name": "White",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fb3%2Fdd%2Fb3dd24232f10af9a7ca60b0ee7d05cfa964a6a80.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_tops_longsleeve%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          },
+          {
+            "name": "Dark khaki green",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fe4%2Fbb%2Fe4bbdd7a2d372c3b10fe34aad0f4f8736ccabdf5.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          }
+        ],
+        "sizes": ["XS", "S", "M", "L"],
+        "id": "Trousers2",
+        "category": "women"
       },
       {
-        "src": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fc2%2Ff4%2Fc2f4759ad72257cd15b3a7961988d14a353ad16f.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
-        "title": "Women's Floral Bouquet Print Tunic",
-        "desc": "Elevate your wardrobe with our Women's Floral Bouquet Print Tunic, a perfect blend of art and fashion. Featuring a stunning, vibrant floral bouquet print on the front, this tunic is crafted from soft, breathable fabric for ultimate comfort.",
-        "id": "d003ef09"
+        "name": "Off-the-shoulder jersey top",
+        "desc": "Fitted, off-the-shoulder top in heavy jersey with short sleeves and concealed elastication at the top, accentuating your neckline and shoulders. The overlocked hem adds a touch of durability and a subtle, stylish finish to the overall design. Perfect for layering or wearing on its own, this versatile top pairs effortlessly with a variety of outfits, making it an essential addition to your wardrobe. Whether you're dressing it up with a blazer and trousers for a chic office look or keeping it casual with jeans and sneakers for a weekend outing, this vest top provides a flattering fit and timeless appeal. Available in multiple colors to suit your ",
+        "price": 699.0,
+        "images": {
+          "img1": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F46%2F55%2F4655486768b08d3040e62991f59e0c576df775b9.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+          "img2": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F10%2F6a%2F106a84a4f3e1fe93a3207fdc8e925b33f215287b.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+          "img3": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F3c%2F71%2F3c719c492ec979c699e48bdd83ad4e5acff9e14d.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+          "img4": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F89%2Fea%2F89ea7455c72cda9a75ddfa6560596cfe46f8360c.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVEDETAIL%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+        },
+        "colors": [
+          {
+            "name": "Black",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F3c%2F71%2F3c719c492ec979c699e48bdd83ad4e5acff9e14d.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          },
+          {
+            "name": "White",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fff%2Ff5%2Ffff559ec0c3908c28dbf652693c95921fbef6f79.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          },
+          {
+            "name": "White/Navy blue striped",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F0f%2Fc9%2F0fc9de400daba3c0b31e9b50fb2e41bdafa50ae3.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          }
+        ],
+        "sizes": ["XS", "S", "M", "L"],
+        "id": "Trousers3",
+        "category": "women"
       },
       {
-        "src": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F0a%2F9a%2F0a9a32057086771b31b0050b524c813b7be04999.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_dresses_mididresses%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
-        "title": "Flounce-trimmed dress",
-        "desc": "Long, sleeveless dress in woven fabric made from a lyocell blend. Deep V-neckline at the front and back with narrow, horizontal ties at the back of the neck. Double-layered flounces over the shoulders and around the waist and a concealed zip at one side. Lined.",
-        "id": "d003ef09"
+        "name": "Oversized printed T-shirt",
+        "desc": "Oversized T-shirt in soft, printed cotton jersey with a ribbed trim around the neckline, low dropped shoulders and a straight-cut hem. The overlocked hem adds a touch of durability and a subtle, stylish finish to the overall design. Perfect for layering or wearing on its own, this versatile top pairs effortlessly with a variety of outfits, making it an essential addition to your wardrobe. Whether you're dressing it up with a blazer and trousers for a chic office look or keeping it casual with jeans and sneakers for a weekend outing, this vest top provides a flattering fit and timeless appeal. Available in multiple colors to suit your ",
+        "price": 1299.0,
+        "images": {
+          "img1": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F43%2Ff4%2F43f4a0166d47c8599b16655a87c61a886ed86217.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+          "img2": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fdc%2Fc0%2Fdcc081b4b675341e874df95407c8da9b10bf3aa7.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+          "img3": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F85%2Fae%2F85ae337246b7116292d29068afbed10302510271.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_tops_printed_tshirts%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+          "img4": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F91%2Fc3%2F91c386542bcca8db5d292090c29ffd3cd173f378.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_tops_printed_tshirts%5D%2Ctype%5BDESCRIPTIVEDETAIL%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+        },
+        "colors": [
+          {
+            "name": "Black/Deftones",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F85%2Fae%2F85ae337246b7116292d29068afbed10302510271.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_tops_printed_tshirts%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          },
+          {
+            "name": "Dusty green/Nine Inch Nails",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F01%2F9d%2F019d07d213cf1944934dd1e0af78e1898c58653b.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_tops_printed_tshirts%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          },
+          {
+            "name": "Grey/The Rolling Stones",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fbc%2F4b%2Fbc4ba6cc38156c2d48c3d40673084b00d901ea3e.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          }
+        ],
+        "sizes": ["XS", "S", "M", "L"],
+        "id": "Trousers4",
+        "category": "women"
       },
       {
-        "src": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F0d%2Fb4%2F0db4ea9f78ede0d3cd6a1e46b629ddef476e9973.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
-        "title": "Oversized twill jacket",
-        "desc": "Oversized jacket in twill with a small stand-up collar and a wind flap with concealed press-studs down the front. Gently dropped shoulders and long sleeves with a slit and press-stud at the cuffs. Flap front pockets, a yoke at the back and covered elastication at the hem. Lined.",
-        "id": "d003ef09"
+        "name": "Fitted T-shirt",
+        "desc": "Fitted T-shirt in soft jersey with a narrow trim around the neckline. printed cotton jersey with a ribbed trim around the neckline, low dropped shoulders and a straight-cut hem. The overlocked hem adds a touch of durability and a subtle, stylish finish to the overall design. Perfect for layering or wearing on its own, this versatile top pairs effortlessly with a variety of outfits, making it an essential addition to your wardrobe. Whether you're dressing it up with a blazer and trousers for a chic office look or keeping it casual with jeans and sneakers for a weekend outing, this vest top provides a flattering fit and timeless appeal. Available in multiple colors to suit your ",
+        "price": 1099.0,
+        "images": {
+          "img1": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F1a%2F4b%2F1a4b47e13fe02fc94c5207dd099ec01fa5ef45b2.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+          "img2": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F25%2F5d%2F255dcf38f6f17dc307b9e08ba5be5fe10df284c0.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+          "img3": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F05%2F9c%2F059c96c3cb9d826873f6a9dbe61d3ed9c0da3db4.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_basics_tops_shortsleeve%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+          "img4": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F9d%2Fc6%2F9dc6da00241dcc561cf35ae159e93f5bf3d85ed5.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_basics_tops_shortsleeve%5D%2Ctype%5BDESCRIPTIVEDETAIL%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+        },
+        "colors": [
+          {
+            "name": "Dark beige",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F05%2F9c%2F059c96c3cb9d826873f6a9dbe61d3ed9c0da3db4.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_basics_tops_shortsleeve%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          },
+          {
+            "name": "Light dusty pink",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F88%2F53%2F88532110ec6bfd78a6831b903841acd8cc39f195.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          },
+          {
+            "name": "Black",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F31%2F2d%2F312de7b1191523974ad9f68c02c87dddd06c5d89.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          }
+        ],
+        "sizes": ["XS", "S", "M", "L"],
+        "id": "Trousers5",
+        "category": "women"
       }
     ],
     "Shoes": [
       {
-        "src": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F12%2F31%2F1231b3e663d20fad1a6b468f738539c008a05286.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
-        "title": "Shoes",
-        "desc": "Calf-length, loose-fit kaftan dress in a soft cotton and viscose weave with a band collar, V-shaped opening and buttons down the front. Yoke with gathers at the front and back, long balloon sleeves and wide, buttoned cuffs. Detachable tie belt at the waist and a straight-cut hem with a slit at each side. Unlined.",
-        "id": "d003ef09"
+        "name": "Shoes",
+        "desc": "This short, fitted vest top is crafted from a premium ribbed jersey fabric that offers both comfort and style. It features a deep, round neckline at both the front and back, accentuating your neckline and shoulders. The overlocked hem adds a touch of durability and a subtle, stylish finish to the overall design. Perfect for layering or wearing on its own, this versatile top pairs effortlessly with a variety of outfits, making it an essential addition to your wardrobe. Whether you're dressing it up with a blazer and trousers for a chic office look or keeping it casual with jeans and sneakers for a weekend outing, this vest top provides a flattering fit and timeless appeal. Available in multiple colors to suit your ",
+        "price": 199.0,
+        "images": {
+          "img1": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F6d%2Fea%2F6deab693c180b6375c3b29811e033282b4a75e1c.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+          "img2": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F03%2F71%2F0371f65de274455bd90818bdb16b3ad1d4fc2fbc.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+          "img3": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F4b%2Fe5%2F4be583db5faf6851619a4cd9651c396062de458b.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_tops_vests%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+          "img4": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F7f%2Fca%2F7fca78e981484ae84cee2d7b175c165b6b148490.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_tops_vests%5D%2Ctype%5BDESCRIPTIVEDETAIL%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+        },
+        "colors": [
+          {
+            "name": "White",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F26%2Fc0%2F26c01003d69213dabd5bd7cb74b06639952c1034.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          },
+          {
+            "name": "Black",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F2d%2F04%2F2d0410e71ec565c385aaa5f89a0f70411d824b19.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          },
+          {
+            "name": "Beige",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F4b%2Fe5%2F4be583db5faf6851619a4cd9651c396062de458b.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_tops_vests%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          }
+        ],
+        "sizes": ["XS", "S", "M", "L"],
+        "id": "Shoes1",
+        "category": "women"
       },
       {
-        "src": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fe1%2Fb8%2Fe1b80cc8ecc8d034e21f77cf831af06f3c491144.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
-        "title": "Drawstring-detail halterneck dress",
-        "desc": "Elevate your wardrobe with our Women's Floral Bouquet Print Tunic, a perfect blend of art and fashion. Featuring a stunning, vibrant floral bouquet print on the front, this tunic is crafted from soft, breathable fabric for ultimate comfort.",
-        "id": "d003ef09"
+        "name": "Long-sleeved jersey top",
+        "desc": "Fitted top in soft jersey with a square neckline and long sleeves front and back, accentuating your neckline and shoulders. The overlocked hem adds a touch of durability and a subtle, stylish finish to the overall design. Perfect for layering or wearing on its own, this versatile top pairs effortlessly with a variety of outfits, making it an essential addition to your wardrobe. Whether you're dressing it up with a blazer and trousers for a chic office look or keeping it casual with jeans and sneakers for a weekend outing, this vest top provides a flattering fit and timeless appeal. Available in multiple colors to suit your ",
+        "price": 699.0,
+        "images": {
+          "img1": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F26%2F77%2F26779aa1ee33a0eb12d4dc16ef71f837bd83d9fb.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+          "img2": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F16%2F41%2F1641f9092b1a8a56a7cd4aff36181da8c280a764.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+          "img3": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F84%2Ff6%2F84f638c69f62de4bf16b12b96f189b2672627760.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+          "img4": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F04%2Fd4%2F04d4dfe066bf519821ec1e0125264f90e0d75173.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVEDETAIL%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+        },
+        "colors": [
+          {
+            "name": "Black",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F84%2Ff6%2F84f638c69f62de4bf16b12b96f189b2672627760.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          },
+          {
+            "name": "White",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fb3%2Fdd%2Fb3dd24232f10af9a7ca60b0ee7d05cfa964a6a80.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_tops_longsleeve%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          },
+          {
+            "name": "Dark khaki green",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fe4%2Fbb%2Fe4bbdd7a2d372c3b10fe34aad0f4f8736ccabdf5.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          }
+        ],
+        "sizes": ["XS", "S", "M", "L"],
+        "id": "Shoes2",
+        "category": "women"
       },
       {
-        "src": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fc2%2Ff4%2Fc2f4759ad72257cd15b3a7961988d14a353ad16f.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
-        "title": "Women's Floral Bouquet Print Tunic",
-        "desc": "Elevate your wardrobe with our Women's Floral Bouquet Print Tunic, a perfect blend of art and fashion. Featuring a stunning, vibrant floral bouquet print on the front, this tunic is crafted from soft, breathable fabric for ultimate comfort.",
-        "id": "d003ef09"
+        "name": "Off-the-shoulder jersey top",
+        "desc": "Fitted, off-the-shoulder top in heavy jersey with short sleeves and concealed elastication at the top, accentuating your neckline and shoulders. The overlocked hem adds a touch of durability and a subtle, stylish finish to the overall design. Perfect for layering or wearing on its own, this versatile top pairs effortlessly with a variety of outfits, making it an essential addition to your wardrobe. Whether you're dressing it up with a blazer and trousers for a chic office look or keeping it casual with jeans and sneakers for a weekend outing, this vest top provides a flattering fit and timeless appeal. Available in multiple colors to suit your ",
+        "price": 699.0,
+        "images": {
+          "img1": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F46%2F55%2F4655486768b08d3040e62991f59e0c576df775b9.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+          "img2": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F10%2F6a%2F106a84a4f3e1fe93a3207fdc8e925b33f215287b.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+          "img3": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F3c%2F71%2F3c719c492ec979c699e48bdd83ad4e5acff9e14d.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+          "img4": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F89%2Fea%2F89ea7455c72cda9a75ddfa6560596cfe46f8360c.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVEDETAIL%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+        },
+        "colors": [
+          {
+            "name": "Black",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F3c%2F71%2F3c719c492ec979c699e48bdd83ad4e5acff9e14d.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          },
+          {
+            "name": "White",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fff%2Ff5%2Ffff559ec0c3908c28dbf652693c95921fbef6f79.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          },
+          {
+            "name": "White/Navy blue striped",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F0f%2Fc9%2F0fc9de400daba3c0b31e9b50fb2e41bdafa50ae3.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          }
+        ],
+        "sizes": ["XS", "S", "M", "L"],
+        "id": "Shoes3",
+        "category": "women"
       },
       {
-        "src": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F0a%2F9a%2F0a9a32057086771b31b0050b524c813b7be04999.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_dresses_mididresses%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
-        "title": "Flounce-trimmed dress",
-        "desc": "Long, sleeveless dress in woven fabric made from a lyocell blend. Deep V-neckline at the front and back with narrow, horizontal ties at the back of the neck. Double-layered flounces over the shoulders and around the waist and a concealed zip at one side. Lined.",
-        "id": "d003ef09"
+        "name": "Oversized printed T-shirt",
+        "desc": "Oversized T-shirt in soft, printed cotton jersey with a ribbed trim around the neckline, low dropped shoulders and a straight-cut hem. The overlocked hem adds a touch of durability and a subtle, stylish finish to the overall design. Perfect for layering or wearing on its own, this versatile top pairs effortlessly with a variety of outfits, making it an essential addition to your wardrobe. Whether you're dressing it up with a blazer and trousers for a chic office look or keeping it casual with jeans and sneakers for a weekend outing, this vest top provides a flattering fit and timeless appeal. Available in multiple colors to suit your ",
+        "price": 1299.0,
+        "images": {
+          "img1": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F43%2Ff4%2F43f4a0166d47c8599b16655a87c61a886ed86217.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+          "img2": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fdc%2Fc0%2Fdcc081b4b675341e874df95407c8da9b10bf3aa7.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+          "img3": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F85%2Fae%2F85ae337246b7116292d29068afbed10302510271.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_tops_printed_tshirts%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+          "img4": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F91%2Fc3%2F91c386542bcca8db5d292090c29ffd3cd173f378.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_tops_printed_tshirts%5D%2Ctype%5BDESCRIPTIVEDETAIL%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+        },
+        "colors": [
+          {
+            "name": "Black/Deftones",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F85%2Fae%2F85ae337246b7116292d29068afbed10302510271.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_tops_printed_tshirts%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          },
+          {
+            "name": "Dusty green/Nine Inch Nails",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F01%2F9d%2F019d07d213cf1944934dd1e0af78e1898c58653b.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_tops_printed_tshirts%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          },
+          {
+            "name": "Grey/The Rolling Stones",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fbc%2F4b%2Fbc4ba6cc38156c2d48c3d40673084b00d901ea3e.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          }
+        ],
+        "sizes": ["XS", "S", "M", "L"],
+        "id": "Shoes4",
+        "category": "women"
       },
       {
-        "src": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F0d%2Fb4%2F0db4ea9f78ede0d3cd6a1e46b629ddef476e9973.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
-        "title": "Oversized twill jacket",
-        "desc": "Oversized jacket in twill with a small stand-up collar and a wind flap with concealed press-studs down the front. Gently dropped shoulders and long sleeves with a slit and press-stud at the cuffs. Flap front pockets, a yoke at the back and covered elastication at the hem. Lined.",
-        "id": "d003ef09"
+        "name": "Fitted T-shirt",
+        "desc": "Fitted T-shirt in soft jersey with a narrow trim around the neckline. printed cotton jersey with a ribbed trim around the neckline, low dropped shoulders and a straight-cut hem. The overlocked hem adds a touch of durability and a subtle, stylish finish to the overall design. Perfect for layering or wearing on its own, this versatile top pairs effortlessly with a variety of outfits, making it an essential addition to your wardrobe. Whether you're dressing it up with a blazer and trousers for a chic office look or keeping it casual with jeans and sneakers for a weekend outing, this vest top provides a flattering fit and timeless appeal. Available in multiple colors to suit your ",
+        "price": 1099.0,
+        "images": {
+          "img1": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F1a%2F4b%2F1a4b47e13fe02fc94c5207dd099ec01fa5ef45b2.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+          "img2": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F25%2F5d%2F255dcf38f6f17dc307b9e08ba5be5fe10df284c0.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+          "img3": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F05%2F9c%2F059c96c3cb9d826873f6a9dbe61d3ed9c0da3db4.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_basics_tops_shortsleeve%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+          "img4": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F9d%2Fc6%2F9dc6da00241dcc561cf35ae159e93f5bf3d85ed5.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_basics_tops_shortsleeve%5D%2Ctype%5BDESCRIPTIVEDETAIL%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+        },
+        "colors": [
+          {
+            "name": "Dark beige",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F05%2F9c%2F059c96c3cb9d826873f6a9dbe61d3ed9c0da3db4.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_basics_tops_shortsleeve%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          },
+          {
+            "name": "Light dusty pink",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F88%2F53%2F88532110ec6bfd78a6831b903841acd8cc39f195.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          },
+          {
+            "name": "Black",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F31%2F2d%2F312de7b1191523974ad9f68c02c87dddd06c5d89.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          }
+        ],
+        "sizes": ["XS", "S", "M", "L"],
+        "id": "Shoes5",
+        "category": "women"
       }
     ],
     "Accessories": [
       {
-        "src": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F12%2F31%2F1231b3e663d20fad1a6b468f738539c008a05286.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
-        "title": "Accessories",
-        "desc": "Calf-length, loose-fit kaftan dress in a soft cotton and viscose weave with a band collar, V-shaped opening and buttons down the front. Yoke with gathers at the front and back, long balloon sleeves and wide, buttoned cuffs. Detachable tie belt at the waist and a straight-cut hem with a slit at each side. Unlined.",
-        "id": "d003ef09"
+        "name": "Accessories",
+        "desc": "This short, fitted vest top is crafted from a premium ribbed jersey fabric that offers both comfort and style. It features a deep, round neckline at both the front and back, accentuating your neckline and shoulders. The overlocked hem adds a touch of durability and a subtle, stylish finish to the overall design. Perfect for layering or wearing on its own, this versatile top pairs effortlessly with a variety of outfits, making it an essential addition to your wardrobe. Whether you're dressing it up with a blazer and trousers for a chic office look or keeping it casual with jeans and sneakers for a weekend outing, this vest top provides a flattering fit and timeless appeal. Available in multiple colors to suit your ",
+        "price": 199.0,
+        "images": {
+          "img1": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F6d%2Fea%2F6deab693c180b6375c3b29811e033282b4a75e1c.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+          "img2": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F03%2F71%2F0371f65de274455bd90818bdb16b3ad1d4fc2fbc.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+          "img3": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F4b%2Fe5%2F4be583db5faf6851619a4cd9651c396062de458b.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_tops_vests%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+          "img4": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F7f%2Fca%2F7fca78e981484ae84cee2d7b175c165b6b148490.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_tops_vests%5D%2Ctype%5BDESCRIPTIVEDETAIL%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+        },
+        "colors": [
+          {
+            "name": "White",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F26%2Fc0%2F26c01003d69213dabd5bd7cb74b06639952c1034.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          },
+          {
+            "name": "Black",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F2d%2F04%2F2d0410e71ec565c385aaa5f89a0f70411d824b19.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          },
+          {
+            "name": "Beige",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F4b%2Fe5%2F4be583db5faf6851619a4cd9651c396062de458b.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_tops_vests%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          }
+        ],
+        "sizes": ["XS", "S", "M", "L"],
+        "id": "asdasd",
+        "category": "women"
       },
       {
-        "src": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fe1%2Fb8%2Fe1b80cc8ecc8d034e21f77cf831af06f3c491144.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
-        "title": "Drawstring-detail halterneck dress",
-        "desc": "Elevate your wardrobe with our Women's Floral Bouquet Print Tunic, a perfect blend of art and fashion. Featuring a stunning, vibrant floral bouquet print on the front, this tunic is crafted from soft, breathable fabric for ultimate comfort.",
-        "id": "d003ef09"
+        "name": "Long-sleeved jersey top",
+        "desc": "Fitted top in soft jersey with a square neckline and long sleeves front and back, accentuating your neckline and shoulders. The overlocked hem adds a touch of durability and a subtle, stylish finish to the overall design. Perfect for layering or wearing on its own, this versatile top pairs effortlessly with a variety of outfits, making it an essential addition to your wardrobe. Whether you're dressing it up with a blazer and trousers for a chic office look or keeping it casual with jeans and sneakers for a weekend outing, this vest top provides a flattering fit and timeless appeal. Available in multiple colors to suit your ",
+        "price": 699.0,
+        "images": {
+          "img1": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F26%2F77%2F26779aa1ee33a0eb12d4dc16ef71f837bd83d9fb.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+          "img2": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F16%2F41%2F1641f9092b1a8a56a7cd4aff36181da8c280a764.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+          "img3": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F84%2Ff6%2F84f638c69f62de4bf16b12b96f189b2672627760.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+          "img4": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F04%2Fd4%2F04d4dfe066bf519821ec1e0125264f90e0d75173.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVEDETAIL%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+        },
+        "colors": [
+          {
+            "name": "Black",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F84%2Ff6%2F84f638c69f62de4bf16b12b96f189b2672627760.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          },
+          {
+            "name": "White",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fb3%2Fdd%2Fb3dd24232f10af9a7ca60b0ee7d05cfa964a6a80.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_tops_longsleeve%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          },
+          {
+            "name": "Dark khaki green",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fe4%2Fbb%2Fe4bbdd7a2d372c3b10fe34aad0f4f8736ccabdf5.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          }
+        ],
+        "sizes": ["XS", "S", "M", "L"],
+        "id": "dasdasddf",
+        "category": "women"
       },
       {
-        "src": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fc2%2Ff4%2Fc2f4759ad72257cd15b3a7961988d14a353ad16f.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
-        "title": "Women's Floral Bouquet Print Tunic",
-        "desc": "Elevate your wardrobe with our Women's Floral Bouquet Print Tunic, a perfect blend of art and fashion. Featuring a stunning, vibrant floral bouquet print on the front, this tunic is crafted from soft, breathable fabric for ultimate comfort.",
-        "id": "d003ef09"
+        "name": "Off-the-shoulder jersey top",
+        "desc": "Fitted, off-the-shoulder top in heavy jersey with short sleeves and concealed elastication at the top, accentuating your neckline and shoulders. The overlocked hem adds a touch of durability and a subtle, stylish finish to the overall design. Perfect for layering or wearing on its own, this versatile top pairs effortlessly with a variety of outfits, making it an essential addition to your wardrobe. Whether you're dressing it up with a blazer and trousers for a chic office look or keeping it casual with jeans and sneakers for a weekend outing, this vest top provides a flattering fit and timeless appeal. Available in multiple colors to suit your ",
+        "price": 699.0,
+        "images": {
+          "img1": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F46%2F55%2F4655486768b08d3040e62991f59e0c576df775b9.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+          "img2": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F10%2F6a%2F106a84a4f3e1fe93a3207fdc8e925b33f215287b.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+          "img3": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F3c%2F71%2F3c719c492ec979c699e48bdd83ad4e5acff9e14d.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+          "img4": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F89%2Fea%2F89ea7455c72cda9a75ddfa6560596cfe46f8360c.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVEDETAIL%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+        },
+        "colors": [
+          {
+            "name": "Black",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F3c%2F71%2F3c719c492ec979c699e48bdd83ad4e5acff9e14d.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          },
+          {
+            "name": "White",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fff%2Ff5%2Ffff559ec0c3908c28dbf652693c95921fbef6f79.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          },
+          {
+            "name": "White/Navy blue striped",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F0f%2Fc9%2F0fc9de400daba3c0b31e9b50fb2e41bdafa50ae3.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          }
+        ],
+        "sizes": ["XS", "S", "M", "L"],
+        "id": "gdfg",
+        "category": "women"
       },
       {
-        "src": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F0a%2F9a%2F0a9a32057086771b31b0050b524c813b7be04999.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_dresses_mididresses%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
-        "title": "Flounce-trimmed dress",
-        "desc": "Long, sleeveless dress in woven fabric made from a lyocell blend. Deep V-neckline at the front and back with narrow, horizontal ties at the back of the neck. Double-layered flounces over the shoulders and around the waist and a concealed zip at one side. Lined.",
-        "id": "d003ef09"
+        "name": "Oversized printed T-shirt",
+        "desc": "Oversized T-shirt in soft, printed cotton jersey with a ribbed trim around the neckline, low dropped shoulders and a straight-cut hem. The overlocked hem adds a touch of durability and a subtle, stylish finish to the overall design. Perfect for layering or wearing on its own, this versatile top pairs effortlessly with a variety of outfits, making it an essential addition to your wardrobe. Whether you're dressing it up with a blazer and trousers for a chic office look or keeping it casual with jeans and sneakers for a weekend outing, this vest top provides a flattering fit and timeless appeal. Available in multiple colors to suit your ",
+        "price": 1299.0,
+        "images": {
+          "img1": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F43%2Ff4%2F43f4a0166d47c8599b16655a87c61a886ed86217.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+          "img2": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fdc%2Fc0%2Fdcc081b4b675341e874df95407c8da9b10bf3aa7.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+          "img3": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F85%2Fae%2F85ae337246b7116292d29068afbed10302510271.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_tops_printed_tshirts%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+          "img4": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F91%2Fc3%2F91c386542bcca8db5d292090c29ffd3cd173f378.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_tops_printed_tshirts%5D%2Ctype%5BDESCRIPTIVEDETAIL%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+        },
+        "colors": [
+          {
+            "name": "Black/Deftones",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F85%2Fae%2F85ae337246b7116292d29068afbed10302510271.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_tops_printed_tshirts%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          },
+          {
+            "name": "Dusty green/Nine Inch Nails",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F01%2F9d%2F019d07d213cf1944934dd1e0af78e1898c58653b.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_tops_printed_tshirts%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          },
+          {
+            "name": "Grey/The Rolling Stones",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fbc%2F4b%2Fbc4ba6cc38156c2d48c3d40673084b00d901ea3e.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          }
+        ],
+        "sizes": ["XS", "S", "M", "L"],
+        "id": "fsdf",
+        "category": "women"
       },
       {
-        "src": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F0d%2Fb4%2F0db4ea9f78ede0d3cd6a1e46b629ddef476e9973.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
-        "title": "Oversized twill jacket",
-        "desc": "Oversized jacket in twill with a small stand-up collar and a wind flap with concealed press-studs down the front. Gently dropped shoulders and long sleeves with a slit and press-stud at the cuffs. Flap front pockets, a yoke at the back and covered elastication at the hem. Lined.",
-        "id": "d003ef09"
+        "name": "Fitted T-shirt",
+        "desc": "Fitted T-shirt in soft jersey with a narrow trim around the neckline. printed cotton jersey with a ribbed trim around the neckline, low dropped shoulders and a straight-cut hem. The overlocked hem adds a touch of durability and a subtle, stylish finish to the overall design. Perfect for layering or wearing on its own, this versatile top pairs effortlessly with a variety of outfits, making it an essential addition to your wardrobe. Whether you're dressing it up with a blazer and trousers for a chic office look or keeping it casual with jeans and sneakers for a weekend outing, this vest top provides a flattering fit and timeless appeal. Available in multiple colors to suit your ",
+        "price": 1099.0,
+        "images": {
+          "img1": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F1a%2F4b%2F1a4b47e13fe02fc94c5207dd099ec01fa5ef45b2.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+          "img2": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F25%2F5d%2F255dcf38f6f17dc307b9e08ba5be5fe10df284c0.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+          "img3": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F05%2F9c%2F059c96c3cb9d826873f6a9dbe61d3ed9c0da3db4.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_basics_tops_shortsleeve%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D",
+          "img4": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F9d%2Fc6%2F9dc6da00241dcc561cf35ae159e93f5bf3d85ed5.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_basics_tops_shortsleeve%5D%2Ctype%5BDESCRIPTIVEDETAIL%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+        },
+        "colors": [
+          {
+            "name": "Dark beige",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F05%2F9c%2F059c96c3cb9d826873f6a9dbe61d3ed9c0da3db4.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_basics_tops_shortsleeve%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          },
+          {
+            "name": "Light dusty pink",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F88%2F53%2F88532110ec6bfd78a6831b903841acd8cc39f195.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          },
+          {
+            "name": "Black",
+            "image": "https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F31%2F2d%2F312de7b1191523974ad9f68c02c87dddd06c5d89.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+          }
+        ],
+        "sizes": ["XS", "S", "M", "L"],
+        "id": "sfdsdf",
+        "category": "women"
       }
     ]
   }

@@ -28,18 +28,21 @@ export const Landing = () => {
         <p className="text-sm text-gray-600 mb-2 font-serif">
           Experience fashion like never before
         </p>
-        <h1 className="text-3xl md:text-3xl font-bold mb-4 font-serif">
+        <h1 className="text-2xl font-bold mb-4 font-serif">
           Elevate Your Style With <br />
-          <span className="font-cursive text-7xl">Sardar Sons</span>
+          <span className="font-cursive text-6xl">Sardar Sons Nainital</span>
         </h1>
         <p className="text-gray-600 max-w-2xl mx-auto mb-6 font-serif">
           Discover a world of fashion-forward trends, curated collections, and
           timeless pieces that inspire. Unleash your inner fashionista and
           embark on a journey of confidence, elegance and impeccable style.
         </p>
-        <button className="bg-black text-white px-6 py-3 rounded-full text-lg font-semibold hover:bg-gray-800 ">
+        <a
+          className="bg-black text-white px-6 py-3 rounded-full text-lg font-semibold hover:bg-gray-800 "
+          href="#women"
+        >
           START SHOPPING
-        </button>
+        </a>
       </div>
       <div className="flex lg:flex-row flex-col space-x-4 lg:w-11/12 h-1/2 ">
         {images.map((e) => (
