@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { useCart } from "../../utils/CartContext";
 import { Link } from "react-router-dom";
+import CustomerDetails from "./CustomerDetails";
 
 export const ShoppingCart = () => {
   const { cartItems, removeFromCart } = useCart();
@@ -29,14 +30,32 @@ export const ShoppingCart = () => {
     logo: "https://i.ibb.co/L8KSdNQ/image-3.png",
   };
 
-  let customer = {
-    name: "David Kent",
-    previousOrders: 10,
-    email: "david89@gmail.com",
-    avatar: "https://i.ibb.co/5TSg7f6/Rectangle-18.png",
-    shippingAddress: "180 North King Street, Northhampton MA 1060",
-    billingAddress: "180 North King Street, Northhampton MA 1060",
+  let initialCustomer = {
+    name: "Please enter your name",
+    previousOrders: 0,
+    email: "Please enter your email id",
+    shippingAddress: "please enter the shipping address",
+    billingAddress: "please enter the billing address",
   };
+
+  const [customer, setCustomer] = useState(() => {
+    const savedCustomer = localStorage.getItem("customer");
+    return savedCustomer ? JSON.parse(savedCustomer) : initialCustomer;
+  });
+
+  const handleSaveCustomerDetails = (updatedCustomer) => {
+    setCustomer(updatedCustomer);
+    // localStorage.setItem("customer", JSON.stringify(updatedCustomer));
+    console.warn(updatedCustomer);
+  };
+
+  useEffect(() => {
+    const savedCustomer = localStorage.getItem("customer");
+    if (savedCustomer) {
+      setCustomer(JSON.parse(savedCustomer));
+    }
+  }, []);
+
   return (
     <div className="py-14 px-4 mt-[2em] md:px-6 2xl:px-20 2xl:container 2xl:mx-auto">
       <div className="flex flex-col space-y-2">
@@ -51,12 +70,11 @@ export const ShoppingCart = () => {
           })}
         </p>
       </div>
-
       <div className="mt-10 flex flex-col xl:flex-row justify-center items-stretch w-full xl:space-x-8 space-y-4 md:space-y-6 xl:space-y-0">
         <div className="flex flex-col w-full space-y-4 md:space-y-6 xl:space-y-8">
           <div className="flex flex-col bg-gray-100  p-4 md:p-6 xl:p-8 w-full space-y-6">
-            <p className="text-lg md:text-xl font-semibold text-gray-800 ">
-              Customer’s Cart
+            <p className="text-lg lg:text-4xl md:text-xl font-semibold text-gray-800 font-cursive">
+              Your Shopping Cart...
             </p>
             {cartItems && cartItems.length > 0 ? (
               <>
@@ -223,6 +241,11 @@ export const ShoppingCart = () => {
                   INR{summary.total.toFixed(2)}
                 </p>
               </div>
+              <div className="w-full flex items-center justify-center">
+                <button className="btn btn-outline btn-primary btn-xl btn-wide font-cursive text-2xl">
+                  Place your Order
+                </button>
+              </div>
             </div>
 
             <div className="flex flex-col bg-gray-100  p-4 md:p-6 xl:p-8 w-full space-y-6">
@@ -257,59 +280,10 @@ export const ShoppingCart = () => {
             </div>
           </div>
         </div>
-
-        <div className="bg-gray-100 w-full xl:w-96 p-4 md:p-6 xl:p-8 space-y-6 flex flex-col">
-          <h3 className="text-xl font-semibold text-gray-800 ">Customer</h3>
-          <div className="flex flex-col space-y-4">
-            <div className="flex items-center space-x-4 py-8 border-b border-gray-200">
-              <img
-                src={customer.avatar}
-                alt="avatar"
-                className="w-16 h-16 rounded-full"
-              />
-              <div className="flex flex-col space-y-2">
-                <p className="text-base font-semibold text-gray-800">
-                  {customer.name}
-                </p>
-                <p className="text-sm text-gray-600 ">
-                  {customer.previousOrders} Previous Orders
-                </p>
-              </div>
-            </div>
-            <div className="flex items-center space-x-4 py-4 border-b border-gray-200 text-gray-800">
-              <img
-                className="w-6 h-6"
-                src="https://tuk-cdn.s3.amazonaws.com/can-uploader/order-summary-3-svg1.svg"
-                alt="email"
-              />
-              <p className="cursor-pointer text-sm">{customer.email}</p>
-            </div>
-          </div>
-
-          <div className="flex flex-col space-y-4">
-            <div className="flex flex-col space-y-4">
-              <p className="text-base font-semibold text-gray-800">
-                Shipping Address
-              </p>
-              <p className="text-sm text-gray-600 ">
-                {customer.shippingAddress}
-              </p>
-            </div>
-            <div className="flex flex-col space-y-4">
-              <p className="text-base font-semibold text-gray-800 ">
-                Billing Address
-              </p>
-              <p className="text-sm text-gray-600 ">
-                {customer.billingAddress}
-              </p>
-            </div>
-          </div>
-          <div className="w-full flex justify-center">
-            <button className="mt-6 py-5 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 border border-gray-800 font-medium w-full text-base leading-4 text-gray-800">
-              Edit Details
-            </button>
-          </div>
-        </div>
+        <CustomerDetails
+          customer={customer}
+          onSave={handleSaveCustomerDetails}
+        />
       </div>
     </div>
   );
