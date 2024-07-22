@@ -40,6 +40,7 @@ export const ProductDetails = () => {
       return null;
     }
     data = data[category];
+
     for (const key in data) {
       const productArray = data[key];
       if (Array.isArray(productArray)) {

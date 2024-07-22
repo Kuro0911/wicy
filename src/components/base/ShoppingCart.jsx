@@ -45,7 +45,7 @@ export const ShoppingCart = () => {
 
   const handleSaveCustomerDetails = (updatedCustomer) => {
     setCustomer(updatedCustomer);
-    // localStorage.setItem("customer", JSON.stringify(updatedCustomer));
+    localStorage.setItem("customer", JSON.stringify(updatedCustomer));
     console.warn(updatedCustomer);
   };
 

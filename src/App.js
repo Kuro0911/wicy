@@ -12,6 +12,7 @@ import { Woman } from "./components/collections/Woman";
 import { ShoppingCart } from "./components/base/ShoppingCart";
 import { ProductDetails } from "./components/base/ProductDetails";
 import { CartProvider } from "./utils/CartContext";
+import { FullCollection } from "./components/full/FullCollection";
 
 function App() {
   return (
@@ -47,6 +48,18 @@ function App() {
               }
             />
             <Route path="/product/:category/:id" element={<ProductDetails />} />
+            <Route
+              path="/women-full"
+              element={<FullCollection collectionType="women" />}
+            />
+            <Route
+              path="/men-full"
+              element={<FullCollection collectionType="men" />}
+            />
+            <Route
+              path="/kids-full"
+              element={<FullCollection collectionType="kids" />}
+            />
           </Routes>
           <Footer />
         </div>

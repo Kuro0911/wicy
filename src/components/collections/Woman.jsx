@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useMemo } from "react";
 import { Card } from "../base/Card";
 import WomenData from "../../utils/database/Womens.json";
+import { Link } from "react-router-dom";
 
 export const Woman = () => {
   const [activeItem, setActiveItem] = useState("Shirts");
@@ -48,9 +49,12 @@ export const Woman = () => {
                 {item}
               </button>
             ))}
-            <button className="btn rounded-full bg-black text-white font-serif hover:text-black hover:bg-white">
+            <Link
+              to={"/women-full"}
+              className="btn rounded-full bg-black text-white font-serif hover:text-black hover:bg-white"
+            >
               View Full Collection
-            </button>
+            </Link>
           </nav>
         </div>
       </div>
