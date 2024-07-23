@@ -7,6 +7,8 @@ export const FullCard = ({ title, src, desc, category, id, price }) => {
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
+    const currentRef = cardRef.current;
+
     const observer = new IntersectionObserver(
       ([entry]) => {
         setIsVisible(entry.isIntersecting);
@@ -16,13 +18,13 @@ export const FullCard = ({ title, src, desc, category, id, price }) => {
       }
     );
 
-    if (cardRef.current) {
-      observer.observe(cardRef.current);
+    if (currentRef) {
+      observer.observe(currentRef);
     }
 
     return () => {
-      if (cardRef.current) {
-        observer.unobserve(cardRef.current);
+      if (currentRef) {
+        observer.unobserve(currentRef);
       }
     };
   }, []);
@@ -42,7 +44,7 @@ export const FullCard = ({ title, src, desc, category, id, price }) => {
       />
 
       <div className="relative p-4 sm:p-6 lg:p-8">
-        <p className="text-sm font-medium uppercase tracking-widest text-pink-500 font-sans">
+        <p className="text-sm font-medium uppercase tracking-widest text-pink-500">
           {category}
         </p>
         <p className="text-xl font-bold text-white sm:text-2xl">{title}</p>
@@ -51,7 +53,8 @@ export const FullCard = ({ title, src, desc, category, id, price }) => {
           <div className="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100">
             <p className="text-sm text-white mb-2">${price}</p>
             <span
-              className={`text-md font-semibold lg:line-clamp-3 line-clamp-1 text-white
+              className={`text-md font-semibold lg:line-clamp-3 line-clamp-1 ${
+                category === "kids" ? "text-purple-700" : "text-amber-700"
               }`}
             >
               {desc}

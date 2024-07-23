@@ -1,6 +1,7 @@
-import React, { useState, useEffect, useMemo } from "react";
+import React, { useState, useMemo } from "react";
 import { Card } from "../base/Card";
 import MenData from "../../utils/database/Mens.json";
+import { Link } from "react-router-dom";
 
 export const Men = () => {
   const [activeItem, setActiveItem] = useState("Shirts");
@@ -21,10 +22,6 @@ export const Men = () => {
   const card_items = useMemo(() => {
     return MenData.Men[activeItem] || [];
   }, [activeItem]);
-
-  useEffect(() => {
-    // console.log(MenData.Men);
-  }, []);
 
   return (
     <div className="hero w-full h-screen flex flex-col" id="men">
@@ -47,9 +44,12 @@ export const Men = () => {
                 {item}
               </button>
             ))}
-            <button className="btn rounded-full bg-black text-white font-serif hover:text-black hover:bg-white">
+            <Link
+              to={"/men-full"}
+              className="btn rounded-full bg-black text-white font-serif hover:text-black hover:bg-white"
+            >
               View Full Collection
-            </button>
+            </Link>
           </nav>
         </div>
       </div>
