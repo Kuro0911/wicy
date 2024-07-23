@@ -7,6 +7,8 @@ export const Card = ({ title, src, desc, category, id }) => {
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
+    const currentRef = cardRef.current;
+
     const observer = new IntersectionObserver(
       ([entry]) => {
         setIsVisible(entry.isIntersecting);
@@ -16,13 +18,13 @@ export const Card = ({ title, src, desc, category, id }) => {
       }
     );
 
-    if (cardRef.current) {
-      observer.observe(cardRef.current);
+    if (currentRef) {
+      observer.observe(currentRef);
     }
 
     return () => {
-      if (cardRef.current) {
-        observer.unobserve(cardRef.current);
+      if (currentRef) {
+        observer.unobserve(currentRef);
       }
     };
   }, []);
@@ -47,7 +49,7 @@ export const Card = ({ title, src, desc, category, id }) => {
       <Link to={`/product/${category}/${id}`}>
         <div className="relative px-4 -mt-16">
           <div
-            className={`bg-white p-6 rounded-lg shadow-lg transform group-hover:scale-105 transition-transform duration-300 ease-in-out}`}
+            className={`bg-white p-6 rounded-lg shadow-lg transform group-hover:scale-105 transition-transform duration-300 ease-in-out`}
           >
             <h4
               className={`mt-1 text-xl font-semibold uppercase font-serif ${
